@@ -1,4 +1,4 @@
-//Write program to implement PUSH, POP ,PEEK , PEEP , CHANGE , D 
+//Write program to implement PUSH, POP ,PEEK , PEEP , CHANGE , DISPLAY ,EXIT 
 import java.util.Scanner;
 class Stack_implement_methods {
     int[] a;
