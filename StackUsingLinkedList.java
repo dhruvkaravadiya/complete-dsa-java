@@ -1,4 +1,5 @@
 
+
 import static java.lang.System.exit;
 
 class Stack_Using_Linkedlist_Implement {
@@ -36,16 +37,26 @@ class Stack_Using_Linkedlist_Implement {
     public void pop() {
 
         if (top == null) {
-            System.out.print("\nStack Underflow");
+            System.out.println("Stack Under flow");
             return;
         }
         top = (top).link;
+    }
+    public int peep(int x , Node index){
+        Node peepNode = new Node();
+        if(top == null){
+            System.out.println("Stack under flow");
+            return -1;
+        }
+        else{
+            return top.    
+        }
     }
 
     public void display() {
 
         if (top == null) {
-            System.out.printf("\nStack Underflow");
+            System.out.printfln("Stack Underflow");
             exit(1);
         } else {
             Node temp = top;
@@ -78,17 +89,29 @@ public class StackUsingLinkedList {
             else if(choice == 2){
                 obj.pop();
             }
+            else if(choice == 3){
+                obj.peek();
+            }
+            else if(choice == 4){
+                obj.display();
+            }
+            else if(choice == 5){
+                obj.peep((obj.head.link) , sc.next());
+            }
+            else if(choice == 6){
+                System.exit(0);
+            }
         }
-        obj.push(11);
-        obj.push(22);
-        obj.push(33);
-        obj.push(44);
-        obj.display();
-        System.out.printf("\nTop :\n"+ obj.peek());
-        obj.pop();
-        obj.pop();
-        obj.display();
-        System.out.printf("\nTop :\n"+ obj.peek());
+        // obj.push(11);
+        // obj.push(22);
+        // obj.push(33);
+        // obj.push(44);
+        // obj.display();
+        // System.out.printf("\nTop :\n"+ obj.peek());
+        // obj.pop();
+        // obj.pop();
+        // obj.display();
+        // System.out.printf("\nTop :\n"+ obj.peek());
 
     }
 }
