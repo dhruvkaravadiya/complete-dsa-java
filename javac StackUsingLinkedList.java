@@ -57,6 +57,11 @@ class Stack_Using_Linkedlist_Implement {
             }
         }
     }
+    public void change(){
+        if(top = null){
+
+        }
+    }
 }
 
 
@@ -64,7 +69,16 @@ public class StackUsingLinkedList {
     public static void main(String[] args) {
 
        Stack_Using_Linkedlist_Implement obj = new Stack_Using_Linkedlist_Implement();
-        System.out.println("Enter choice 1-PUSH , 2-POP , 3-PEEK,4-Display , ");
+        System.out.println("Enter choice 1 - PUSH , 2 - POP , 3 - PEEK, 4 - Display ");
+        int choice = sc.nextInt();
+        while(true){
+            if(choice == 1){
+                obj.push(sc.nextInt());
+            }
+            else if(choice == 2){
+                obj.pop();
+            }
+        }
         obj.push(11);
         obj.push(22);
         obj.push(33);
@@ -75,5 +89,6 @@ public class StackUsingLinkedList {
         obj.pop();
         obj.display();
         System.out.printf("\nTop :\n"+ obj.peek());
+
     }
 }
