@@ -1,9 +1,5 @@
 
-// Write a program for evaluation of post-fix Expression using Stack
-import java.util.Scanner;
-import java.util.Stack;
-
-public class PostfixEval {
+// Write a program for evaluation of post-fix Expression using Stac {
 
     public static int evaluateExpression(int operand1, int operand2, char ch) {
         int value = 0;
