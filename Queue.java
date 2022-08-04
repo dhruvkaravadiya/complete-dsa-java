@@ -28,7 +28,7 @@ public class Queue {
         if (front <= -1 || front > rear) {
             System.out.println("Queue Underflow");
             return -1;
-        } else {
+        } else{
             System.out.println("Dequeued element");
             return arr[front++];
         }
@@ -69,7 +69,7 @@ public class Queue {
                 queue.display();
                 System.out.println("Enter your choice");
                 choice = sc.nextInt();
-            } else {
+            } else if(choice==4){
                 break;
             }
         }
