@@ -39,7 +39,7 @@ public class CircularQueue{
         Quene_Methods obj = new Quene_Methods();
         Scanner sc = new Scanner(System.in);      
         while(true){
-            System.out.println("Enter operation 1-Anque , 0 - Deque , 2 - Terminate");
+            System.out.println("Enter operation 1-Anque , 2 - Deque ,3 - Display ,4 - Terminate");
             int operation = sc.nextInt();
 
                 if(operation == 1){
@@ -47,11 +47,11 @@ public class CircularQueue{
                     obj.anque(sc.nextInt());
                     
                 }
-                else if(operation == 0){
+                else if(operation == 2){
                     obj.deque();
                    
                 }
-                else if(operation == 2){
+                else if(operation == 4){
                     break;
                 }  
                 else if(operation ==3){
