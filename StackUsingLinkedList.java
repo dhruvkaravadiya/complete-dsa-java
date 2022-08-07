@@ -8,6 +8,8 @@ class Stack_Using_Linkedlist_Implement {
         Node link;
     }
 
+    
+    
     Node top;
 
     Stack_Using_Linkedlist_Implement() {
@@ -102,16 +104,7 @@ public class StackUsingLinkedList {
                 System.exit(0);
             }
         }
-        // obj.push(11);
-        // obj.push(22);
-        // obj.push(33);
-        // obj.push(44);
-        // obj.display();
-        // System.out.printf("\nTop :\n"+ obj.peek());
-        // obj.pop();
-        // obj.pop();
-        // obj.display();
-        // System.out.printf("\nTop :\n"+ obj.peek());
+
 
     }
 }
