@@ -3,7 +3,7 @@
 import java.util.Stack;
 
 class InfixToPostFixImplement {
-    public boolean checkIfAlphabet(char ch) {
+    public boolean checkIfOpearator(char ch) {
         if ((ch >= 'a' && ch <= 'z') || (ch >= 'A' && ch <= 'Z'))
             return true;
         else
@@ -27,7 +27,7 @@ class InfixToPostFixImplement {
 
         for (int i = 0; i < infix.length(); i++) {
             char temp = infix.charAt(i);
-            if (checkIfAlphabet(temp)) {
+            if (checkIfOpearator(temp)) {
                 revPolishExp.append(temp);
             } 
             else if (temp == '(') {
