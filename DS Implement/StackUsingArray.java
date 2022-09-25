@@ -4,15 +4,17 @@ import java.util.Scanner;
 
 class StackImplement {
     int Top = -1;
+    
     int N = 0;
-    int[] stack = new int[10];
-
-    // public void setSize(int N) {
-    //     this.N = N;
-    // }
+   
+     public void setSize(int N) {
+         this.N = N;
+     }
+    
+    int[] stack = new int[N];
 
     public int PUSH(int pustElement) {
-        if (Top >= 10) {
+        if (Top >= N) {
             System.out.print("Stack Overflow / Full");
             return 0;
         } else {
@@ -53,8 +55,8 @@ public class StackUsingArray {
     public static void main(String[] args) {
         Scanner scObj = new Scanner(System.in);
         StackImplement stkObj = new StackImplement();
-        //System.out.println("Enter Size of Stack");
-        //stkObj.setSize(scObj.nextInt());
+        System.out.println("Enter Size of Stack");
+        stkObj.setSize(scObj.nextInt());
         boolean flag = true;
         while (flag) {
             System.out.println("Choose Operation : 1 - PUSH , 2 - POP , 3 - PEEK , 4 - DISPLAY , 5 - EXIT");
