@@ -1,20 +1,23 @@
-
 //Implement Stack Using Array
 import java.util.Scanner;
 
 class StackImplement {
-    int Top = -1;
+    int Top = -1; //Initialize Top Pointer
     
-    int N = 0;
+    int N = 0;//Initialize N size of array
    
+     //Method to set the size of array into N variable
      public void setSize(int N) {
          this.N = N;
      }
     
+    //Initialize Stack of N size
     int[] stack = new int[N];
 
+    
     public int PUSH(int pustElement) {
-        if (Top >= N) {
+        //Check stack overflow
+        if (Top >= N) { 
             System.out.print("Stack Overflow / Full");
             return 0;
         } else {
@@ -29,7 +32,8 @@ class StackImplement {
             System.out.print("Stack Underflow / Empty");
             return 0;
         } else {
-            return stack[Top - 1];
+            Top--;
+            return stack[Top];
         }
     }
 
