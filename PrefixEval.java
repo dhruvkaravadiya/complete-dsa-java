@@ -46,6 +46,7 @@ public class PrefixEval {
         for (int i = str2.length() - 1; i >= 0; i--) {
             str += str2.charAt(i);
         }
+        //use reversed string
         System.out.println(evaluatePrefix(str));
         sc.close();
     }
