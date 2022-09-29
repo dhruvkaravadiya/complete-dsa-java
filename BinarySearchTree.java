@@ -1,5 +1,5 @@
 import java.util.*;
-class BST {
+class BinarySearchTree {
     Node root;
 
     public class Node {
@@ -98,13 +98,13 @@ class BST {
         else{
             Node temp = root;
             Stack<Node> stack = new Stack<>();
-            while(stack.size()>0 && temp != null){
+            while(stack.size()>0 || temp != null){
                 while(temp != null){
                     stack.push(temp);
                     temp = temp.left;
                 }
                 temp = stack.pop();
-                System.out.println(temp.data + " ");
+                System.out.print(temp.data + " ");
                 temp = temp.right;
             }
         }
@@ -121,7 +121,7 @@ class BST {
             stack.push(root);
             while(stack.size()>0){
                 Node temp = stack.pop();
-                System.out.println(temp.data+" ");
+                System.out.print(temp.data+" ");
                 if(temp.right!=null){
                     stack.push(temp.right);
                 }
@@ -131,4 +131,81 @@ class BST {
             }
         }
     }
+
+
+    //POSTORDER
+
+    void postOrder(){
+        if(root == null){
+            System.out.println("Root Null");
+        }
+        else{
+            Stack<Node> stack1 = new Stack<>();
+            Stack<Node> stack2 = new Stack<>();
+            stack1.push(root);
+            while(stack1.size()>0){
+                Node temp = stack1.pop();
+                stack2.push(temp);
+                if(temp.right!=null){
+                    stack1.push(temp.right);
+                }
+                if(temp.left!=null){
+                    stack1.push(temp.left);
+                }
+            }
+            while(stack2.size()>0){
+                Node temp = stack2.pop();
+                System.out.print(temp.data+" ");
+            }
+        }
+    }
+    public static void main(String[] args) {
+        Scanner sc = new Scanner(System.in);
+        BinarySearchTree b1 = new BinarySearchTree();
+        b1.insert(8);
+        b1.insert(3);
+        b1.insert(11);
+        b1.insert(5);
+        b1.insert(9);
+        b1.insert(12);
+        b1.insert(13);
+        b1.insert(20);
+
+//        System.out.println("Leaf Node Delete ");
+//        b1.deleteLeafNode(20);
+//        System.out.println();
+//
+//        System.out.println("Delete One Child Parent");
+//        b1.deleteOneChild(12);
+//        System.out.println();
+//
+//        System.out.println("Delete Two Chile Parent");
+//        b1.deleteTwoChild(8);
+//        System.out.println();
+        System.out.println();
+        System.out.println();
+
+        System.out.println("Preorder Traversal");
+        b1.preOrder();
+        System.out.println();
+        System.out.println();
+        System.out.println();
+        System.out.println();
+
+
+        System.out.println("Inorder Traversal");
+        b1.inOrder();
+        System.out.println();
+        System.out.println();
+        System.out.println();
+        System.out.println();
+
+
+        System.out.println("Postorder Traversal");
+        b1.postOrder();
+        System.out.println();
+    }
 }
+
+
+
