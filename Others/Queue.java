@@ -2,8 +2,7 @@
 // Implement Simple Queue using array that performs following operations: INSERT, DELETE, DISPLAY
 
 import java.util.Scanner;
-
-public class QueueUsingArray {
+class SimpleQueue {
     int[] arr;
     int front = -1;
     int rear = -1;
@@ -46,14 +45,11 @@ public class QueueUsingArray {
         System.out.println("Enter the size of the queue ");
         int n = sc.nextInt();
 
-        QueueUsingArray queue = new QueueUsingArray();
+        SimpleQueue queue = new SimpleQueue();
         queue.setSize(n);
 
         System.out.println("Enter Your Choice ");
-        System.out.println(" 1 to enqueue ");
-        System.out.println(" 2 to dequeue ");
-        System.out.println(" 3 to display  ");
-        System.out.println(" 4 to exit  ");
+        System.out.println(" 1 to enqueue , 2 to dequeue , 3 to display , 4 to exit ");
         int choice = sc.nextInt();
         while (true) {
             if (choice == 1) {

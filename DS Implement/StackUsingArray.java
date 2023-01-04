@@ -2,25 +2,24 @@
 import java.util.Scanner;
 
 class StackImplement {
-    int Top = -1; //Initialize Top Pointer
-    
-    int N = 0;//Initialize N size of array
-   
-     //Method to set the size of array into N variable
-     public void setSize(int N) {
-         this.N = N;
-     }
-    
-    //Initialize Stack of N size
-    int[] stack = new int[N];
+    int Top = -1; // Initialize Top Pointer
+    public int N = 0;// Initialize N size of array
+    // Method to set the size of array into N variable
+    int [] stack;
+    public void setSize(int size) {
+        this.N = size;
+        stack = new int[N];
+    }
 
+    // Initialize Stack of N size
     
     public int PUSH(int pustElement) {
-        //Check stack overflow
-        if (Top >= N) { 
-            System.out.print("Stack Overflow / Full");
+        // Check stack overflow
+        if(Top >= N){
+            System.out.println("Stack Overflow / Full");
             return 0;
-        } else {
+        }
+        else{
             Top++;
             stack[Top] = pustElement;
             return Top;
@@ -48,9 +47,19 @@ class StackImplement {
 
     public void DISPLAY() {
         int x = Top;
+        System.out.println("Stack : ");
         while (x > -1) {
-            System.out.print(stack[x]);
+            System.out.print(stack[x]+" ");
             x--;
+        }
+        System.out.println();
+    }
+    public void CHANGE(int x , int index){
+        if(Top == -1){
+            System.out.println("Stack Underflow");
+        }
+        else{
+            stack[Top-index+1] = x;
         }
     }
 }
@@ -60,29 +69,24 @@ public class StackUsingArray {
         Scanner scObj = new Scanner(System.in);
         StackImplement stkObj = new StackImplement();
         System.out.println("Enter Size of Stack");
-        stkObj.setSize(scObj.nextInt());
+        int size = scObj.nextInt();
+        stkObj.setSize(size);
         boolean flag = true;
         while (flag) {
-            System.out.println("Choose Operation : 1 - PUSH , 2 - POP , 3 - PEEK , 4 - DISPLAY , 5 - EXIT");
+            System.out.println("Choose Operation : 1 - PUSH , 2 - POP , 3 - PEEK , 4 - DISPLAY , 5 - CHANGE, 6 - EXIT");
             int choice = scObj.nextInt();
-            switch (choice) {
-                case 1:
+                if(choice== 1)
                     stkObj.PUSH(scObj.nextInt());
-                    break;
-                case 2:
+                else if(choice == 2)
                     stkObj.POP();
-                    break;
-                case 3:
+                else if(choice == 3)
                     stkObj.PEEK();
-                    break;
-                case 4:
+                else if(choice == 4)
                     stkObj.DISPLAY();
-                    break;
-                case 5:
+                else if(choice == 5)
+                    stkObj.CHANGE(3,1);
+                else
                     flag = false;
-                    break;
-            }
-        
         }
     }
 }
