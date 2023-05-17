@@ -1,4 +1,3 @@
-package Array;
 import java.util.PriorityQueue;
 import java.util.Queue;
 import java.util.Scanner;

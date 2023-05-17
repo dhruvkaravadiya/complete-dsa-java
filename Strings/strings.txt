@@ -11,7 +11,6 @@ Parenthesis problem:-
 9.https://leetcode.com/problems/maximum-nesting-depth-of-the-parentheses Easy
 
 Counting of substring based on some condition:-
-
 1.https://leetcode.com/problems/number-of-wonderful-substrings Medium
 2.https://leetcode.com/problems/sum-of-beauty-of-all-substrings/ Medium
 3.https://leetcode.com/problems/maximum-number-of-occurrences-of-a-substring Medium
@@ -43,7 +42,8 @@ Check types of string:-
 8.https://leetcode.com/problems/find-the-closest-palindrome Hard
 9.https://leetcode.com/problems/palindromic-substrings Medium
 10.https://leetcode.com/problems/valid-palindrome-ii Easy
-11.https://leetcode.com/problems/longest-chunked-palindrome-decomposition Hard 12.https://leetcode.com/problems/break-a-palindrome Medium
+11.https://leetcode.com/problems/longest-chunked-palindrome-decomposition 
+Hard 12.https://leetcode.com/problems/break-a-palindrome Medium
 13. https://leetcode.com/problems/can-make-palindrome-from-substring Medium
 14.https://leetcode.com/problems/palindrome-partitioning-iii Hard
 15.https://leetcode.com/problems/minimum-insertion-steps-to-make-a-string-palindrome Hard

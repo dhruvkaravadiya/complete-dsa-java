@@ -1,5 +1,3 @@
-package Array;
-
 //Naive Approach
 
 // public class countTriplets {

@@ -1,6 +1,6 @@
 import java.util.Stack;
 import java.util.Scanner;
-public class InfixToPostfix {
+public class InfixToPostFix {
     static int Precedence(char ch){
         switch (ch) {
             case '+':
@@ -17,7 +17,7 @@ public class InfixToPostfix {
             return -1;
     }
 
-    static String InfixToPostFix(String infix) {
+    static String InfixToPostFixConvert(String infix) {
         String postfix = new String("");
         Stack<Character> stack = new Stack<Character>();
         for (int i = 0; i < infix.length(); ++i) {
@@ -55,6 +55,7 @@ public class InfixToPostfix {
         System.out.println("Enter Infix string : ");
         Scanner sc = new Scanner(System.in);
         String infix_string = sc.nextLine();
-        System.out.println("Postfix : " + InfixToPostFix(infix_string));
+        System.out.println("Postfix : " + InfixToPostFixConvert(infix_string));
+        sc.close();
     }
 }

@@ -88,5 +88,8 @@ public class StackUsingArray {
                 else
                     flag = false;
         }
+       scObj.close();
+
     }
+
 }

@@ -15,7 +15,7 @@ public class PrefixToInfix {
     }
     return false;
 }
-    static String PrefixToInfix(String prefix){
+    static String PrefixToInfixConvert(String prefix){
         Stack<String> stack = new Stack<>();
         for(int i = prefix.length() - 1 ; i>=0 ; i--){
             char ch = prefix.charAt(i);
@@ -35,6 +35,7 @@ public class PrefixToInfix {
         Scanner sc = new Scanner(System.in);
         System.out.println("Enter Prefix String : ");
         String prefix_string = sc.nextLine();
-        System.out.println("Infix : "+PrefixToInfix(prefix_string));
+        System.out.println("Infix : "+PrefixToInfixConvert(prefix_string));
+        sc.close();
     }
 }

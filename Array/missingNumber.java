@@ -1,7 +1,5 @@
-package Array;
-
 public class missingNumber {
-    public static int missingNumber(int[] nums) {
+    public static int missingNumberM(int[] nums) {
         int n = nums.length;
         int sumOfN = (n * (n + 1)) / 2;
         int arrSum = 0;
@@ -16,7 +14,7 @@ public class missingNumber {
 
     public static void main(String[] args) {
         int arr[] = { 0, 1, 3, 4, 5, 6, 7 };
-        System.out.println(missingNumber(arr));
+        System.out.println(missingNumberM(arr));
     }
 
 }

@@ -1,5 +1,3 @@
-
-
 //Implement Stack Using Array
 import java.util.Scanner;
 
@@ -54,7 +52,7 @@ class StackImplement {
     }
 }
 
-public class testrun {
+public class StackUsingArray {
     public static void main(String[] args) {
         Scanner scObj = new Scanner(System.in);
 
@@ -83,5 +81,6 @@ public class testrun {
             }
 
         }
+        scObj.close();
     }
 }
