@@ -13,7 +13,9 @@ class StackImplement {
     // }
 
     int[] stack = new int[N];
-
+    //PUSH ALGORITHM :
+    //Check if top stack if full of not
+    //increment top and insert element at the top
     public void PUSH(int pustElement) {
         // Check stack overflow
         if (Top >= N) {
@@ -21,19 +23,23 @@ class StackImplement {
         } else {
             Top++;
             stack[Top] = pustElement;
-
         }
     }
-
+    //POP Algo:
+    //Check if te stack if empty or not
+    //Else Decrement top and return the new top  
     public int POP() {
         if (Top == -1) {
             System.out.print("Stack Underflow / Empty");
             return 0;
         } else {
-            return stack[Top--];
+            Top--;
+            return stack[Top];
         }
     }
-
+    //PEEK Algo:
+    //Check if the stack is empty or not
+    //return top
     public int PEEK() {
         if (Top == -1) {
             System.out.print("Stack Underflow / Empty");
@@ -42,13 +48,15 @@ class StackImplement {
             return stack[Top];
         }
     }
-
+    //Display Algorithm
+    //while loop x > -1 (x=Top) and print
     public void DISPLAY() {
         int x = Top;
         while (x > -1) {
-            System.out.print(stack[x]);
+            System.out.print(stack[x]+" ");
             x--;
         }
+        System.out.println();
     }
 }
 
