@@ -4,7 +4,7 @@ package LinkedList.Implementations;
 // import java.util.ArrayList;
 // import java.util.List;
 
-class LinkedList{
+class SinglyLinkedListImplemented{
     //Node head = null is also same as Node head , 
     //as not assigning value to head makes it null
     Node head;
@@ -178,7 +178,7 @@ class LinkedList{
 }
 public class singlyLinkedList {
     public static void main(String[] args) {
-        LinkedList list = new LinkedList();
+        SinglyLinkedListImplemented list = new SinglyLinkedListImplemented();
         list.insertNodeAtStart(1);
         list.insertNodeAtStart(2);
         list.insertNodeAtStart(3);

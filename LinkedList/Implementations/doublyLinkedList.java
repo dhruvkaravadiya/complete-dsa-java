@@ -1,7 +1,7 @@
 //Doubly Linked List implementation using two pointers : head , next
 package LinkedList.Implementations;
 
-class LinkedList {
+class DoublyLinkedListImplemented {
     // lets define the node first which looks like this : 
     //         ---------------------
     // Node : | prev | data | next |
@@ -207,7 +207,7 @@ class LinkedList {
 
 public class doublyLinkedList {
     public static void main(String[] args) {
-        LinkedList list  = new LinkedList();
+        DoublyLinkedListImplemented list  = new DoublyLinkedListImplemented();
         list.insertAtStart(-1);
         list.insertAtStart(-2);
         list.insertAtStart(-3);
