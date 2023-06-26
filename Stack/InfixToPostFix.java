@@ -1,3 +1,15 @@
+//Operator Precedence - (+-) > (*/) > (^)
+//1. Read the infix string,
+//2. Initialize empty stack , and POSTFIX string(answer)
+//3. Read a character and check
+    //- if ch is digit or alphabet - concat with POSTFIX
+    //- else if ch is '(' then push to the stack
+    //- else if ch is ')' then pop one character from stack and
+    //          concat it with POSTFIX until [ stack is empty and '(' occurs ]
+    //- else ch is Operator then pop one character from stack and 
+    //          concat it with POSTFIX until [ stack is empty and prec(ch) <= prec(poped character) ]
+    //          and push the last element
+    // return POSTFIX  
 import java.util.Stack;
 import java.util.Scanner;
 public class InfixToPostFix {
