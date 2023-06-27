@@ -163,7 +163,29 @@ class SinglyLinkedListImplemented{
         }
     }
     public void reverse(){
-        Node temp = head;
+        
+        //return if head null (list empty)
+        if(head == null){
+            System.out.println("Reverse Not Possible");
+            return;
+        }
+        //Initialize 3 pointers like this
+        Node currNode = head;
+        Node prevNode = null;
+        Node nextNode = null;
+        //till the last node which will be null
+        while(currNode != null){
+            //first point the nextNode to element stored in the currNode
+            nextNode = currNode.next;
+            //update the link part of curr node to its prevNode
+            currNode.next = prevNode;
+            //point the prevNode so that we can update the nextNode's link part in next iteration
+            prevNode = currNode;
+            //now we can move the currNode to the nextNode
+            currNode = nextNode;
+        }
+        //at last point the head to the last node , that is the prevNode
+        head = prevNode;
     }
     public void display(){
         Node temp = head;
@@ -172,11 +194,8 @@ class SinglyLinkedListImplemented{
         while(temp!=null){
             System.out.print(temp.data+" ");
             temp = temp.next;
-        }
-       
+        } 
     }
-    
-    
 }
 public class singlyLinkedList {
     public static void main(String[] args) {
@@ -192,8 +211,10 @@ public class singlyLinkedList {
         list.insertNodeAtEnd(-4);
         list.insertNodeAtEnd(-5);
         list.insertAtNthPosition(0, 5);
-        list.deleteNthNode(3);
+        //list.deleteNthNode(3);
         list.display();
-        list.searchByValue(0);
+        // list.searchByValue(0);
+        list.reverse();
+        list.display();
     }
 }
