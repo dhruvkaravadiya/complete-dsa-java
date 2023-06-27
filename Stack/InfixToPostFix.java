@@ -18,17 +18,14 @@ public class InfixToPostFix {
             case '+':
             case '-':
                 return 1;
-
             case '*':
             case '/':
                 return 2;
-
             case '^':
                 return 3;
             }
             return -1;
     }
-
     static String InfixToPostFixConvert(String infix) {
         String postfix = new String("");
         Stack<Character> stack = new Stack<Character>();
@@ -62,7 +59,6 @@ public class InfixToPostFix {
         }
         return postfix;
     }
-
     public static void main(String[] args) {
         System.out.println("Enter Infix string : ");
         Scanner sc = new Scanner(System.in);
