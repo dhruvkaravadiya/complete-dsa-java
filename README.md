@@ -21,6 +21,22 @@ Feel free to explore the topics and check the boxes next to each problem to indi
 - [x] [PostFix To Infix](https://github.com/dhruvkaravadiya/data-structures-implemented/blob/main/Stack/PostfixToInfix.java)
 - [x] [Prefix To Infix](https://github.com/dhruvkaravadiya/data-structures-implemented/blob/main/Stack/PrefixToInfix.java)
 
+---
+
+## Linked List
+
+- [x] [Singly Linked List](https://github.com/dhruvkaravadiya/data-structures-implemented/blob/main/LinkedList/Implementations/singlyLinkedList.java)
+- [x] [Doubly Linked List](https://github.com/dhruvkaravadiya/data-structures-implemented/blob/main/LinkedList/Implementations/doublyLinkedList.java)
+- [x] [Circular Linked List](https://github.com/dhruvkaravadiya/data-structures-implemented/blob/LinkedList/Implementations/circularLinkedList.java)
+- [ ] [Merge Two Sorted LinkedList]()
+- [ ] [Sort a Linked List]()
+- [ ] [Remove Duplicates from Linked List]()
+- [ ] [Check if Linked List is Palindrome or Not]()
+- [ ] [Implement Stack using Linked List]()
+- [ ] [Implemenet Queue using Linked List]()
+- [ ] [Intersection Point of Two Singly Linked Lists]()
+- [ ] [Cycle Detection]()
+
 **Note:** Please refer to the solution files for the implementation details and explanations.
 
 ---
