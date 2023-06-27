@@ -162,7 +162,9 @@ class SinglyLinkedListImplemented{
             return temp;
         }
     }
-    
+    public void reverse(){
+        Node temp = head;
+    }
     public void display(){
         Node temp = head;
         System.out.print("\nList : ");
