@@ -29,7 +29,7 @@ Feel free to explore the topics and check the boxes next to each problem to indi
 - [x] [Doubly Linked List](https://github.com/dhruvkaravadiya/data-structures-implemented/blob/main/LinkedList/Implementations/doublyLinkedList.java)
 - [x] [Circular Linked List](https://github.com/dhruvkaravadiya/data-structures-implemented/blob/LinkedList/Implementations/circularLinkedList.java)
 - [x] [Merge Two Sorted LinkedList](https://github.com/dhruvkaravadiya/data-structures-implemented/blob/LinkedList/Implementations/mergeTwoSortedLinkedList.java)
-- [ ] [Sort a Linked List]()
+- [x] [Sort a Linked List]()
 - [ ] [Remove Duplicates from Linked List]()
 - [ ] [Check if Linked List is Palindrome or Not]()
 - [ ] [Implement Stack using Linked List]()
