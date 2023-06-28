@@ -95,7 +95,7 @@ public class mergeTwoSortedLinkedList {
         l2.addAtLast(5);
         l1.display();
         l2.display();
-            l1.mergeLists(l1.head, l2.head);
-            l1.display();
+        l1.mergeLists(l1.head, l2.head);
+        l1.display();
     }
 }
