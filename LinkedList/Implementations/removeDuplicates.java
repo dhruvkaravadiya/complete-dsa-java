@@ -37,7 +37,6 @@ public class removeDuplicates {
 
     static void display(Node head) {
         Node temp = head;
-       
         // Traverse the linked list and print the data values of each node
         while (temp != null) {
             System.out.print(temp.data + " ");
