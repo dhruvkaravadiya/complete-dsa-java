@@ -37,6 +37,10 @@ Feel free to explore the topics and check the boxes next to each problem to indi
 - [ ] [Implemenet Queue using Linked List]()
 - [ ] [Intersection Point of Two Singly Linked Lists]()
 - [ ] [Cycle Detection]()
+- [ ] [Linked List Cycle]()
+- [ ] [Intersection of two linked list]()
+- [x] [Swapping Nodes in a Linked List]()
+- [ ] [Odd Even Linked List]()
 
 **Note:** Please refer to the solution files for the implementation details and explanations.
 
