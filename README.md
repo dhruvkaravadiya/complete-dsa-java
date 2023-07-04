@@ -2,7 +2,7 @@
 
 Welcome to my GitHub repository! This repository contains a collection of solved data structures and algorithms problems, categorized by topics. Each topic includes a list of questions along with links to their respective solutions. 
 
-Feel free to explore the topics and check the boxes next to each problem to indicate whether it has been solved or not.
+Feel free to explore the topics and the boxes indicate whether it has been solved or not.
 
 ## Table of Contents
 
