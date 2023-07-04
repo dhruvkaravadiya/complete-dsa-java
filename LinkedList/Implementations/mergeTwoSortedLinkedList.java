@@ -81,7 +81,6 @@ class ImplementationClass {
         }
     }
 }
-
 public class mergeTwoSortedLinkedList {
 
     public static void main(String[] args) {
