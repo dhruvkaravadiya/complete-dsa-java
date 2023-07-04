@@ -33,7 +33,7 @@ Feel free to explore the topics and check the boxes next to each problem to indi
 - [x] [Remove Duplicates from Linked List](https://github.com/dhruvkaravadiya/data-structures-implemented/blob/LinkedList/Implementations/removeDuplicates.java)
 - [x] [Remove Duplicates from Linked List and Delete](https://github.com/dhruvkaravadiya/data-structures-implemented/blob/LinkedList/Implementations/removeDuplicatesAndDelete.java)
 - [x] [Check if Linked List is Palindrome or Not](https://github.com/dhruvkaravadiya/data-structures-implemented/blob/LinkedList/Implementations/palindromeLinkedListOrNot.java)
-- [ ] [Implement Stack using Linked List]()
+- [x] [Implement Stack using Linked List](https://github.com/dhruvkaravadiya/data-structures-implemented/blob/LinkedList/Implementations/implementStackUsingLinkedList.java)
 - [ ] [Implemenet Queue using Linked List]()
 - [ ] [Intersection Point of Two Singly Linked Lists]()
 - [ ] [Cycle Detection]()
@@ -41,6 +41,7 @@ Feel free to explore the topics and check the boxes next to each problem to indi
 - [ ] [Intersection of two linked list]()
 - [x] [Swapping Nodes in a Linked List]()
 - [ ] [Odd Even Linked List]()
+- [ ] [Circular Doubly Linked List]()
 
 **Note:** Please refer to the solution files for the implementation details and explanations.
 
