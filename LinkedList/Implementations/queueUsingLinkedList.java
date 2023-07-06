@@ -1,6 +1,4 @@
 package LinkedList.Implementations;
-
-import java.util.Queue;
 import java.util.Scanner;
 
 class QueueUsingLinkedListImplementation {
