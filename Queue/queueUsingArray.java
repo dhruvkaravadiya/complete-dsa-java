@@ -120,5 +120,6 @@ public class queueUsingArray {
                 break;
             }
         }
+        sc.close();
     }
 }
