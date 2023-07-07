@@ -23,6 +23,12 @@ Feel free to explore the topics and the boxes indicate whether it has been solve
 
 ---
 
+## Queue
+
+- [x] [Queue Using Array](https://github.com/dhruvkaravadiya/data-structures-implemented/blob/main/Queue/queueUsingArray.java)
+
+---
+
 ## Linked List
 
 - [x] [Singly Linked List](https://github.com/dhruvkaravadiya/data-structures-implemented/blob/main/LinkedList/Implementations/singlyLinkedList.java)
@@ -34,12 +40,12 @@ Feel free to explore the topics and the boxes indicate whether it has been solve
 - [x] [Remove Duplicates from Linked List and Delete](https://github.com/dhruvkaravadiya/data-structures-implemented/blob/LinkedList/Implementations/removeDuplicatesAndDelete.java)
 - [x] [Check if Linked List is Palindrome or Not](https://github.com/dhruvkaravadiya/data-structures-implemented/blob/LinkedList/Implementations/palindromeLinkedListOrNot.java)
 - [x] [Implement Stack using Linked List](https://github.com/dhruvkaravadiya/data-structures-implemented/blob/LinkedList/Implementations/implementStackUsingLinkedList.java)
-- [ ] [Implemenet Queue using Linked List]()
+- [x] [Implemenet Circular Queue using Linked List](https://github.com/dhruvkaravadiya/data-structures-implemented/blob/LinkedList/Implementations/circuarQueueUsingLinkedList.java)
 - [ ] [Intersection Point of Two Singly Linked Lists]()
 - [ ] [Cycle Detection]()
 - [ ] [Linked List Cycle]()
 - [ ] [Intersection of two linked list]()
-- [x] [Swapping Nodes in a Linked List]()
+- [x] [Swapping Nodes in a Linked List](https://github.com/dhruvkaravadiya/data-structures-implemented/blob/LinkedList/Implementations/swappingNodesOfALinkedList.java)
 - [ ] [Odd Even Linked List]()
 - [ ] [Circular Doubly Linked List]()
 
