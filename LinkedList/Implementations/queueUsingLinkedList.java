@@ -1,11 +1,9 @@
 package LinkedList.Implementations;
 import java.util.Scanner;
-
 class QueueUsingLinkedListImplementation {
     // declaring REAR and FRONT pointers
     Node REAR;
     Node FRONT;
-
     class Node {
         // 'next' contains address/link to the next node
         Node next;
@@ -17,17 +15,14 @@ class QueueUsingLinkedListImplementation {
             this.data = data;
         }
     }
-
     QueueUsingLinkedListImplementation() {
         this.REAR = null;
         this.FRONT = null;
     }
-
     boolean isEmpty() {
         // if head null , queue is empty
         return FRONT == null;
     }
-
     void enqueue(int element) {
         // make a new node
         Node newNode = new Node(element);
@@ -42,7 +37,6 @@ class QueueUsingLinkedListImplementation {
         // and set the rear to the new element
         REAR = newNode;
     }
-
     Node dequeue() {
         // check if queue is empty
         if (isEmpty()) {
@@ -61,7 +55,6 @@ class QueueUsingLinkedListImplementation {
             return frontElement;
         }
     }
-
     int front(){
         //if queue empty
         if(isEmpty()){
@@ -85,7 +78,6 @@ class QueueUsingLinkedListImplementation {
         System.out.println();
     }
 }
-
 class queueUsingLinkedList {
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
@@ -106,5 +98,6 @@ class queueUsingLinkedList {
                 break;
             }
         }
+        sc.close();
     }
 }
