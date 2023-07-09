@@ -12,6 +12,37 @@ Feel free to explore the topics and the boxes indicate whether it has been solve
 - [LinkedList](#linkedlist)
 
 ---
+>Subarray with given sum
+
+>right rotation
+>left rotation
+>merge two sorted array
+>missing number
+>sub array with given sum
+>k'th largest element
+>k'th smallest element
+>Count the triplets
+>Number of pairs 
+>Largest Number formed from an Array
+>Leaders in an array
+>Pythagorean Triplet
+>Move Zeros at the end of array
+>Pascal's Tringle
+
+## Array
+
+- [x] [Subarray with given sum](https://github.com/dhruvkaravadiya/data-structures-implemented/blob/main/Array/subArrayWithGivenSum.java)
+- [x] [Reverse an Array](https://github.com/dhruvkaravadiya/data-structures-implemented/blob/main/Array/arrayReverse.java)
+- [x] [Count Triplets](https://github.com/dhruvkaravadiya/data-structures-implemented/blob/main/Array/countTriplets.java)
+- [x] [kthLargesElement](https://github.com/dhruvkaravadiya/data-structures-implemented/blob/main/Array/kthLargestElement.java)
+- [x] [Largest Number Formed From An Array](https://github.com/dhruvkaravadiya/data-structures-implemented/blob/main/Array/largestNumberFormedFromAnArray.java)
+- [x] [LeadersInAnArray](https://github.com/dhruvkaravadiya/data-structures-implemented/blob/main/Array/LeadersInAnArray.java)
+- [x] [Left Rotation](https://github.com/dhruvkaravadiya/data-structures-implemented/blob/main/Array/leftRotation.java)
+- [x] [Right Rotation](https://github.com/dhruvkaravadiya/data-structures-implemented/blob/main/Array/rightRotation.java)
+- [x] [Merge Two Sorted Arrays](https://github.com/dhruvkaravadiya/data-structures-implemented/blob/main/Array/mergeTwoSortedArrays.java)
+- [x] [Missing Number](https://github.com/dhruvkaravadiya/data-structures-implemented/blob/main/Array/missingNumber.java)
+- [x] [Move Zeroes](https://github.com/dhruvkaravadiya/data-structures-implemented/blob/main/Array/moveZeros.java)
+---
 
 ## Stack
 
