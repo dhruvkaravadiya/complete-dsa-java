@@ -12,22 +12,6 @@ Feel free to explore the topics and the boxes indicate whether it has been solve
 - [LinkedList](#linkedlist)
 
 ---
->Subarray with given sum
-
->right rotation
->left rotation
->merge two sorted array
->missing number
->sub array with given sum
->k'th largest element
->k'th smallest element
->Count the triplets
->Number of pairs 
->Largest Number formed from an Array
->Leaders in an array
->Pythagorean Triplet
->Move Zeros at the end of array
->Pascal's Tringle
 
 ## Array
 
@@ -42,6 +26,7 @@ Feel free to explore the topics and the boxes indicate whether it has been solve
 - [x] [Merge Two Sorted Arrays](https://github.com/dhruvkaravadiya/data-structures-implemented/blob/main/Array/mergeTwoSortedArrays.java)
 - [x] [Missing Number](https://github.com/dhruvkaravadiya/data-structures-implemented/blob/main/Array/missingNumber.java)
 - [x] [Move Zeroes](https://github.com/dhruvkaravadiya/data-structures-implemented/blob/main/Array/moveZeros.java)
+
 ---
 
 ## Stack
