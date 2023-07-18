@@ -18,14 +18,15 @@ Feel free to explore the topics and the boxes indicate whether it has been solve
 - :white_check_mark: [Subarray with given sum](https://github.com/dhruvkaravadiya/data-structures-implemented/blob/main/Array/subArrayWithGivenSum.java)
 - :white_check_mark: [Reverse an Array](https://github.com/dhruvkaravadiya/data-structures-implemented/blob/main/Array/arrayReverse.java)
 - :white_check_mark: [Count Triplets](https://github.com/dhruvkaravadiya/data-structures-implemented/blob/main/Array/countTriplets.java)
-- :white_check_mark: [kthLargesElement](https://github.com/dhruvkaravadiya/data-structures-implemented/blob/main/Array/kthLargestElement.java)
+- :white_check_mark: [kth Largest Element](https://github.com/dhruvkaravadiya/data-structures-implemented/blob/main/Array/kthLargestElement.java)
 - :white_check_mark: [Largest Number Formed From An Array](https://github.com/dhruvkaravadiya/data-structures-implemented/blob/main/Array/largestNumberFormedFromAnArray.java)
-- :white_check_mark: [LeadersInAnArray](https://github.com/dhruvkaravadiya/data-structures-implemented/blob/main/Array/LeadersInAnArray.java)
+- :white_check_mark: [Leaders In An Array](https://github.com/dhruvkaravadiya/data-structures-implemented/blob/main/Array/LeadersInAnArray.java)
 - :white_check_mark: [Left Rotation](https://github.com/dhruvkaravadiya/data-structures-implemented/blob/main/Array/leftRotation.java)
 - :white_check_mark: [Right Rotation](https://github.com/dhruvkaravadiya/data-structures-implemented/blob/main/Array/rightRotation.java)
 - :white_check_mark: [Merge Two Sorted Arrays](https://github.com/dhruvkaravadiya/data-structures-implemented/blob/main/Array/mergeTwoSortedArrays.java)
 - :white_check_mark: [Missing Number](https://github.com/dhruvkaravadiya/data-structures-implemented/blob/main/Array/missingNumber.java)
 - :white_check_mark: [Move Zeroes](https://github.com/dhruvkaravadiya/data-structures-implemented/blob/main/Array/moveZeros.java)
+- :white_check_mark: [Number Of Crossed Lines](https://github.com/dhruvkaravadiya/data-structures-implemented/blob/main/.numberOfCrossedLines.java)
 
 ---
 
