@@ -15,7 +15,7 @@ Feel free to explore the topics and the boxes indicate whether it has been solve
 
 ## Array
 
-:white_check_mark [Subarray with given sum](https://github.com/dhruvkaravadiya/data-structures-implemented/blob/main/Array/subArrayWithGivenSum.java)
+- :white_check_mark [Subarray with given sum](https://github.com/dhruvkaravadiya/data-structures-implemented/blob/main/Array/subArrayWithGivenSum.java)
 :white_check_mark [Reverse an Array](https://github.com/dhruvkaravadiya/data-structures-implemented/blob/main/Array/arrayReverse.java)
 :white_check_mark [Count Triplets](https://github.com/dhruvkaravadiya/data-structures-implemented/blob/main/Array/countTriplets.java)
 :white_check_mark [kthLargesElement](https://github.com/dhruvkaravadiya/data-structures-implemented/blob/main/Array/kthLargestElement.java)
