@@ -41,14 +41,14 @@ Feel free to explore the topics and the boxes indicate whether it has been solve
 
 ## Queue
 
-- [x] [Queue Using Array](https://github.com/dhruvkaravadiya/data-structures-implemented/blob/main/Queue/queueUsingArray.java)
+- :white_check_mark: [Queue Using Array](https://github.com/dhruvkaravadiya/data-structures-implemented/blob/main/Queue/queueUsingArray.java)
 - [x] [Circular Queue Using Linked List](https://github.com/dhruvkaravadiya/data-structures-implemented/blob/main/Queue/circularQueueUsingLinkedList.java)
 - [ ] [Queue Using Two Stacks]()
 - [ ] [Queue Using a Linked List]()
 - [ ] [Reverse The First k Elements Of A Queue]()
 - [ ] [Find The Minimum Element In A Queue]()
 - [ ] [Deque using Linked List]()
-- [ ] [Priority Queue Using An Array Or A Heap]()
+- :no_entry: [Priority Queue Using An Array Or A Heap]()
 
 ---
 
