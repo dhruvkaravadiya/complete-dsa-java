@@ -27,6 +27,8 @@ Feel free to explore the topics and the boxes indicate whether it has been solve
 - :white_check_mark: [Missing Number](https://github.com/dhruvkaravadiya/data-structures-implemented/blob/main/Array/missingNumber.java)
 - :white_check_mark: [Move Zeroes](https://github.com/dhruvkaravadiya/data-structures-implemented/blob/main/Array/moveZeros.java)
 - :white_check_mark: [Number Of Crossed Lines](https://github.com/dhruvkaravadiya/data-structures-implemented/blob/main/.numberOfCrossedLines.java)
+- :white_check_mark: [Two Sum](https://github.com/dhruvkaravadiya/data-structures-implemented/blob/main/.TwoSum.java)
+- :white_check_mark: [Sign of Product of Array](https://github.com/dhruvkaravadiya/data-structures-implemented/blob/main/signOfProductOfArray.java)
 
 ---
 
