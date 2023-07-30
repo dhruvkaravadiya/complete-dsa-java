@@ -111,3 +111,12 @@ If you would like to contribute to this repository by adding more problems or so
 ---
 
 I hope you find this repository helpful! If you have any questions or suggestions, please feel free to reach out. Happy coding!
+
+
+```
+{
+  "firstName": "John",
+  "lastName": "Smith",
+  "age": 25
+}
+```
