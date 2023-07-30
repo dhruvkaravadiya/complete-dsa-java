@@ -51,7 +51,7 @@ Feel free to explore the topics and the boxes indicate whether it has been solve
 - :no_entry: [Reverse The First k Elements Of A Queue]()
 - :no_entry: [Find The Minimum Element In A Queue]()
 - :no_entry: [Deque using Linked List]()
- - :no_entry: [Priority Queue Using An Array Or A Heap]()
+- :no_entry: [Priority Queue Using An Array Or A Heap]()
 
 ---
 
@@ -80,6 +80,24 @@ Feel free to explore the topics and the boxes indicate whether it has been solve
 
 ---
 
+## Sorting
+
+- :no_entry: [Bubble Sort]()
+- :no_entry: [Selection Sort]()
+- :no_entry: [Insetion Sort]()
+- :no_entry: [Merge Sort]()
+- :no_entry: [Quick Sort]()
+- :no_entry: [Heap Sort]()
+- :no_entry: [Radix Sort]()
+- :no_entry: [Counting Sort]()
+- :no_entry: [Bucket Sort]()
+- :no_entry: [Shell Sort]()
+
+---
+
+## Graphs 
+
+---
 ## Contribution
 
 If you would like to contribute to this repository by adding more problems or solutions, please follow these steps:
