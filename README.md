@@ -7,7 +7,6 @@ Welcome to my GitHub repository! This repository contains a collection of solved
   "firstName": "Dhruv Karavadiya",
   "repository name": "Complete DSA",
   "language": "Java",
-  "comments": :white_check_mark:,
   "repository status": "On-going",
   "Contributors": "Me-Myself"
 }
@@ -100,9 +99,9 @@ Welcome to my GitHub repository! This repository contains a collection of solved
 
 ## Sorting
 
-- :white_check_mark: [Bubble Sort]()
-- :white_check_mark: [Selection Sort]()
-- :no_entry: [Insetion Sort]()
+- :white_check_mark: [Bubble Sort](https://github.com/dhruvkaravadiya/data-structures-implemented/blob/main/Sorting/BubbleSort.java)
+- :white_check_mark: [Selection Sort](https://github.com/dhruvkaravadiya/data-structures-implemented/blob/main/Sorting/SelectionSort.java)
+- :no_entry: [Insertion Sort](https://github.com/dhruvkaravadiya/data-structures-implemented/blob/main/Sorting/InsertionSort.java)
 - :no_entry: [Merge Sort]()
 - :no_entry: [Quick Sort]()
 - :no_entry: [Heap Sort]()
