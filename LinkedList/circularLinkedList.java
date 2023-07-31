@@ -1,4 +1,4 @@
-package LinkedList.Implementations;
+package LinkedList;
 
 class CircularLinkedListImplemented {
     // two pointers - head and tail pointing to the start and ending node

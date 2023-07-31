@@ -1,5 +1,5 @@
 //remove the loop without losing any node
-package LinkedList.Implementations;
+package LinkedList;
 
 public class cycleRemoval {
     static class Node {

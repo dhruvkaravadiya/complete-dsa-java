@@ -1,4 +1,4 @@
-package LinkedList.Implementations;
+package LinkedList;
 
 class StackUsingArrayImplementation{
     Node TOP;

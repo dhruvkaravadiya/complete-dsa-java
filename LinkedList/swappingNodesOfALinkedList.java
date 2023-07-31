@@ -1,5 +1,5 @@
 //Swap nodes of a linked list of given k from Start and end
-package LinkedList.Implementations;
+package LinkedList;
 public class swappingNodesOfALinkedList{
     static class Node{
         //'next' contains address/link to the next node

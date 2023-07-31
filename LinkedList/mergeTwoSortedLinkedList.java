@@ -2,7 +2,7 @@
 // TIME COMPLEXITY - O(n+m) - n,m are the size of
 //                            the lists 1 and 2 respectively
 // AUXILIARY SPACE - O(1)
-package LinkedList.Implementations;
+package LinkedList;
 
 class ImplementationClass {
     class Node {

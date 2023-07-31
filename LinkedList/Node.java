@@ -1,4 +1,4 @@
-package LinkedList.Implementations;
+package LinkedList;
 
 public class Node {
     // 'next' contains address/link to the next node

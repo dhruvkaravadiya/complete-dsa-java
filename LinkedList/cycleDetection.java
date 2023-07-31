@@ -1,4 +1,4 @@
-package LinkedList.Implementations;
+package LinkedList;
 //Cycle Detection Using Floyd' Cycle Detection Algorithm
 
 //Time Complexity : O(n)

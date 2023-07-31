@@ -1,7 +1,7 @@
 //Remove duplicates in Unsorted linked list using HASHING
 // Time Complexity = O( n )
 // Auxiliary Space = O( 1 )
-package LinkedList.Implementations;
+package LinkedList;
 import java.util.TreeMap;
 
 public class removeDuplicatesAndDelete {

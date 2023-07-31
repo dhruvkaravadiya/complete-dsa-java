@@ -1,5 +1,5 @@
 //Doubly Linked List implementation using two pointers : head , next
-package LinkedList.Implementations;
+package LinkedList;
 
 class DoublyLinkedListImplemented {
     // lets define the node first which looks like this :

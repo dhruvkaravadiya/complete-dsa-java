@@ -1,7 +1,7 @@
 //Sort Linked list using Merge Sort (Best for sorting linked list)
 //Time Complexity -> o(n log n)
 //Auxiliary Spacae -> o(1)
-package LinkedList.Implementations;
+package LinkedList;
 class LinkedListImplemented{
     Node head;
     int size = 0;

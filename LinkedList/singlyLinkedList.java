@@ -1,5 +1,5 @@
 // Singly Linked List Implementation using Single Head Pointer
-package LinkedList.Implementations;
+package LinkedList;
 
 // import java.util.ArrayList;
 // import java.util.List;

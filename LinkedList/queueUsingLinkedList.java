@@ -1,4 +1,4 @@
-package LinkedList.Implementations;
+package LinkedList;
 import java.util.Scanner;
 class QueueUsingLinkedListImplementation {
     // declaring REAR and FRONT pointers
