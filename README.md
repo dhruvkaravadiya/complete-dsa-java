@@ -2,14 +2,32 @@
 
 Welcome to my GitHub repository! This repository contains a collection of solved data structures and algorithms problems, categorized by topics. Each topic includes a list of questions along with links to their respective solutions. 
 
-Feel free to explore the topics and the boxes indicate whether it has been solved or not.
+```
+{
+  "firstName": "Dhruv Karavadiya",
+  "repository name": "Complete DSA",
+  "language": "Java",
+  "comments": :white_check_mark:,
+  "repository status": "On-going",
+  "Contributors": "Me-Myself"
+}
+```
 
 ## Table of Contents
+
+### Data Structures
 
 - [Stack](#stack)
 - [Queue](#queue)
 - [Array](#array)
 - [LinkedList](#linkedlist)
+
+---
+
+### Algorithms
+
+- [Sorting](#sorting)
+- [Searching](#searching)
 
 ---
 
@@ -57,13 +75,13 @@ Feel free to explore the topics and the boxes indicate whether it has been solve
 
 ## Linked List 
 
-- :white_check_mark: [Singly Linked List](https://github.com/dhruvkaravadiya/data-structures-implemented/blob/main/LinkedList/Implementations/singlyLinkedList.java)
-- :white_check_mark: [Doubly Linked List](https://github.com/dhruvkaravadiya/data-structures-implemented/blob/main/LinkedList/Implementations/doublyLinkedList.java)
-- :white_check_mark: [Circular Linked List](https://github.com/dhruvkaravadiya/data-structures-implemented/blob/main/LinkedList/Implementations/circularLinkedList.java)
-- :white_check_mark: [Merge Two Sorted LinkedList](https://github.com/dhruvkaravadiya/data-structures-implemented/blob/main/LinkedList/Implementations/mergeTwoSortedLinkedList.java)
+- :white_check_mark: [Singly Linked List](https://github.com/dhruvkaravadiya/data-structures-implemented/blob/main/LinkedList/singlyLinkedList.java)H
+- :white_check_mark: [Doubly Linked List](https://github.com/dhruvkaravadiya/data-structures-implemented/blob/main/LinkedList/doublyLinkedList.java)
+- :white_check_mark: [Circular Linked List](https://github.com/dhruvkaravadiya/data-structures-implemented/blob/main/LinkedList/circularLinkedList.java)
+- :white_check_mark: [Merge Two Sorted LinkedList](https://github.com/dhruvkaravadiya/data-structures-implemented/blob/main/LinkedList/mergeTwoSortedLinkedList.java)
 - :white_check_mark: [Sort a Linked List](https://github.com/dhruvkaravadiya/data-structures-implemented/blob/main/LinkedList/sortLinkedList.java)
 - :white_check_mark: [Remove Duplicates from Linked List](https://github.com/dhruvkaravadiya/data-structures-implemented/blob/main/LinkedList/removeDuplicates.java)
-- :white_check_mark: [Remove Duplicates from Linked List and Delete](https://github.com/dhruvkaravadiya/data-structures-implemented/blob/main/LinkedListImplementations/removeDuplicatesAndDelete.java)
+- :white_check_mark: [Remove Duplicates from Linked List and Delete](https://github.com/dhruvkaravadiya/data-structures-implemented/blob/main/LinkedListremoveDuplicatesAndDelete.java)
 - :white_check_mark: [Check if Linked List is Palindrome or Not](https://github.com/dhruvkaravadiya/data-structures-implemented/blob/main/LinkedList/palindromeLinkedListOrNot.java)
 - :white_check_mark: [Implement Stack using Linked List](https://github.com/dhruvkaravadiya/data-structures-implemented/blob/main/LinkedList/implementStackUsingLinkedList.java)
 - :white_check_mark: [Implemenet Circular Queue using Linked List](https://github.com/dhruvkaravadiya/data-structures-implemented/blob/main/LinkedList/circuarQueueUsingLinkedList.java)
@@ -113,10 +131,3 @@ If you would like to contribute to this repository by adding more problems or so
 I hope you find this repository helpful! If you have any questions or suggestions, please feel free to reach out. Happy coding!
 
 
-```
-{
-  "firstName": "John",
-  "lastName": "Smith",
-  "age": 25
-}
-```
