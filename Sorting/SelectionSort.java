@@ -26,7 +26,7 @@ public class SelectionSort {
            arr[i] = temp;
         }
 
-        System.out.print("\nAfter : ");
+        System.out.print("\nAfter Selection Sort: ");
         for(int i = 0 ; i < size ; i++ ){
             System.out.print(arr[i] + " ");
         }
