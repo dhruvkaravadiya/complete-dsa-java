@@ -103,7 +103,7 @@ Welcome to my GitHub repository! This repository contains a collection of solved
 - :white_check_mark: [Selection Sort](https://github.com/dhruvkaravadiya/data-structures-implemented/blob/main/Sorting/SelectionSort.java)
 - :no_entry: [Insertion Sort](https://github.com/dhruvkaravadiya/data-structures-implemented/blob/main/Sorting/InsertionSort.java)
 - :no_entry: [Merge Sort]()
-- :no_entry: [Quick Sort]()
+- :white_check_mark: [Quick Sort](https://github.com/dhruvkaravadiya/data-structures-implemented/blob/main/Sorting/QuickSort.java)
 - :no_entry: [Heap Sort]()
 - :no_entry: [Radix Sort]()
 - :no_entry: [Counting Sort]()
