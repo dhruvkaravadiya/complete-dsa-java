@@ -1,0 +1,12 @@
+1. Program to create a binary tree and perform traversal (pre-order, in-order, post-order). 
+2. Program to insert a node into a binary tree. 
+3. Program to delete a node from a binary tree. 
+4. Program to find the height of a binary tree. 
+5. Program to find the number of leaves in a binary tree. 
+6. Program to find the lowest common ancestor of two nodes in a binary tree. 
+7. Program to check if a binary tree is balanced. 
+8. Program to check if two binary trees are identical. 
+9. Program to check if a binary tree is a binary search tree. 
+10. Program to find the diameter of a binary tree. 
+11. Program to find the maximum element in a binary tree. 
+12. Program to convert a binary tree into its mirror image.
