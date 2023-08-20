@@ -1,8 +1,7 @@
-package BinaryTree;
-
+package Depths;
 import utils.TreeNode;
 
-public class FindHeightOfBst {
+public class MaxDepthOfBST {
     public static int BSTHeight(TreeNode node){
         if(node == null){
             return 0;

@@ -1,4 +1,4 @@
-package BinaryTree.Traversals;
+package Traversals;
 
 import utils.TreeNode;
 public class PostOrderTraversal {
