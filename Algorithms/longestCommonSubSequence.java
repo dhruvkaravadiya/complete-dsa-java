@@ -1,10 +1,13 @@
 package Algorithms;
-
 public class longestCommonSubSequence {
     public static void main(String[] args) {
-        String s1 = "Hospital";
-        String s2 = "Tall";
+        java.util.Scanner sc = new java.util.Scanner(System.in);
+        System.out.print("Enter first string : ");
+        String s1 = sc.next(); 
+        System.out.print("Enter Second string : ");
+        String s2 = sc.next();
         System.out.println(lcs(s1,s2));
+        sc.close();
     }
     public static String lcs(String s1 ,String s2){
         int m = s1.length();
