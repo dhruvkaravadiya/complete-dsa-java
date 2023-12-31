@@ -1,3 +1,4 @@
+package Hashing;
 import java.util.HashMap;
 public class frequencyOfEachNumberInArray{
       public static void main(String[] args) {

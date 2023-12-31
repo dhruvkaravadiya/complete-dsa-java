@@ -42,6 +42,8 @@ Welcome to my GitHub repository! This repository contains a collection of solved
 - :white_check_mark: [Right Rotation](https://github.com/dhruvkaravadiya/data-structures-implemented/blob/main/Array/rightRotation.java)
 - :white_check_mark: [Merge Two Sorted Arrays](https://github.com/dhruvkaravadiya/data-structures-implemented/blob/main/Array/mergeTwoSortedArrays.java)
 - :white_check_mark: [Missing Number](https://github.com/dhruvkaravadiya/data-structures-implemented/blob/main/Array/missingNumber.java)
+- :white_check_mark: [Pascals Triangle](https://github.com/dhruvkaravadiya/data-structures-implemented/blob/main/Array/PascalsTriangle.java)
+- :white_check_mark: [Pythagorean Triplets](https://github.com/dhruvkaravadiya/data-structures-implemented/blob/main/Array/PythagoreanTriplets.java)
 - :white_check_mark: [Move Zeroes](https://github.com/dhruvkaravadiya/data-structures-implemented/blob/main/Array/moveZeroes.java)
 - :white_check_mark: [Number Of Crossed Lines](https://github.com/dhruvkaravadiya/data-structures-implemented/blob/main/Array/numberOfCrossedLines.java)
 - :white_check_mark: [Two Sum](https://github.com/dhruvkaravadiya/data-structures-implemented/blob/main/TwoSum.java)

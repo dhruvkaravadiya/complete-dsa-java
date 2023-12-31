@@ -1,3 +1,4 @@
+package Hashing;
 import java.util.HashMap;
 
 //Count numberof sub arrays having sum equal k int the array
