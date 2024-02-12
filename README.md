@@ -4,7 +4,7 @@ Welcome to my GitHub repository! This repository contains a collection of solved
 
 ```
 {
-  "firstName": "Dhruv Karavadiya",
+  "owner name": "Dhruv Karavadiya",
   "repository name": "Complete DSA",
   "language": "Java",
   "repository status": "On-going",
@@ -14,24 +14,33 @@ Welcome to my GitHub repository! This repository contains a collection of solved
 
 ## Table of Contents
 
-### Data Structures
+### [Data Structures](#data-structures-problems)
 
 - [Stack](#stack)
 - [Queue](#queue)
 - [Array](#array)
 - [LinkedList](#linkedlist)
+- [Trees](#binary-tree)
+- [Hash Table](#hash-table)
 
 ---
 
-### Algorithms
+### [Algorithms](#algorithms-problems)
 
 - [Sorting](#sorting)
 - [Searching](#searching)
+- [Two Pointers](#two-pointers)
+- [Sliding Window](#sliding-window)
+- [Hashing](#hashing)
+- [Back Tracking](#back-tracking)
+
 
 ---
+## Data Structures Problems
+---
 
-## Array
-
+### Array
+- :white_check-mark: [Array Partition]()
 - :white_check_mark: [Subarray with given sum](https://github.com/dhruvkaravadiya/data-structures-implemented/blob/main/Array/subArrayWithGivenSum.java)
 - :white_check_mark: [Reverse an Array](https://github.com/dhruvkaravadiya/data-structures-implemented/blob/main/Array/arrayReverse.java)
 - :white_check_mark: [Count Triplets](https://github.com/dhruvkaravadiya/data-structures-implemented/blob/main/Array/countTriplets.java)
@@ -50,9 +59,7 @@ Welcome to my GitHub repository! This repository contains a collection of solved
 - :white_check_mark: [Sign of Product of Array](https://github.com/dhruvkaravadiya/data-structures-implemented/blob/main/Array/signOfProductOfArray.java)
 
 ---
-
-## Stack
-
+### Stack
 - :white_check_mark: [StackUsingArray](https://github.com/dhruvkaravadiya/data-structures-implemented/blob/main/Stack/StackUsingArray.java)
 - :white_check_mark: [Infix To PostFix](https://github.com/dhruvkaravadiya/data-structures-implemented/blob/main/Stack/InfixToPostFix.java)
 - :no_entry: [Infix To Prefix](https://github.com/dhruvkaravadiya/data-structures-implemented/blob/main/Stack/InfxToPrefix.java)
@@ -60,9 +67,7 @@ Welcome to my GitHub repository! This repository contains a collection of solved
 - :white_check_mark: [Prefix To Infix](https://github.com/dhruvkaravadiya/data-structures-implemented/blob/main/Stack/PrefixToInfix.java)
 
 ---
-
-## Queue
-
+### Queue
 - :white_check_mark:: [Queue Using Array](https://github.com/dhruvkaravadiya/data-structures-implemented/blob/main/Queue/queueUsingArray.java)
 - :white_check_mark:: [Circular Queue Using Linked List](https://github.com/dhruvkaravadiya/data-structures-implemented/blob/main/Queue/circularQueueUsingLinkedList.java)
 - :no_entry: [Queue Using Two Stacks]()
@@ -73,9 +78,7 @@ Welcome to my GitHub repository! This repository contains a collection of solved
 - :no_entry: [Priority Queue Using An Array Or A Heap]()
 
 ---
-
-## Linked List 
-
+### Linked List 
 - :white_check_mark: [Singly Linked List](https://github.com/dhruvkaravadiya/data-structures-implemented/blob/main/LinkedList/singlyLinkedList.java)H
 - :white_check_mark: [Doubly Linked List](https://github.com/dhruvkaravadiya/data-structures-implemented/blob/main/LinkedList/doublyLinkedList.java)
 - :white_check_mark: [Circular Linked List](https://github.com/dhruvkaravadiya/data-structures-implemented/blob/main/LinkedList/circularLinkedList.java)
@@ -94,13 +97,43 @@ Welcome to my GitHub repository! This repository contains a collection of solved
 - :white_check_mark: [Swapping Nodes in a Linked List](https://github.com/dhruvkaravadiya/data-structures-implemented/blob/main/LinkedList/swappingNodesOfALinkedList.java)
 - :no_entry: [Odd Even Linked List]()
 - :no_entry: [Circular Doubly Linked List]()
+- :no_entry: [LRU Cache]()
+- :no_entry: [LFU Cache]()
+
+---
+### Binary Tree
+- :no_entry: [Number Of Leaf Nodes]()
+- :white_check_mark:[In Order Traversal]()
+- :white_check_mark:[Pre Order Traversal]()
+- :white_check_mark:[Post Order Traversal]()
+- :white_check_mark:[BFS - Breadth First Search]()
+- :white_check_mark:[DFS - Depth First Search]()
+- :white_check_mark:[Max Depth Of BST]()
+- :white_check_mark:[Min Depth Of BST]()
+
+---
+### Hash Table
+- :no_entry: [Implement a hash map]()
+- :no_entry: [Simple Chaining Implementation of Hash Table]()
+- :no_entry: [handle collisions using open addressing (linear probing, quadratic probing]()
+- :no_entry: [Find the frequency of elements in an array using a hash table]()
+- :no_entry: [Find the first non-repeating element in an array using a hash table]()
+- :no_entry: [Check if two strings are anagrams using a hash table]()
+- :no_entry: [Count the number of distinct elements in an array using a hash table]()
+- :no_entry: [check if an array contains a pair of elements that sum up to a given value using a hash table]()
+
 
 **Note:** Please refer to the solution files for the implementation details and explanations.
 
 ---
+## Algorithms Problems
 
-## Sorting
+---
+### String Matching
+- :white_check_mark: [Longest Common Susequence](https://github.com/dhruvkaravadiya/complete-dsa-java/blob/main/Algorithms/longestCommonSubSequence.java)
 
+---
+### Sorting
 - :white_check_mark: [Bubble Sort](https://github.com/dhruvkaravadiya/data-structures-implemented/blob/main/Sorting/BubbleSort.java)
 - :white_check_mark: [Selection Sort](https://github.com/dhruvkaravadiya/data-structures-implemented/blob/main/Sorting/SelectionSort.java)
 - :no_entry: [Insertion Sort](https://github.com/dhruvkaravadiya/data-structures-implemented/blob/main/Sorting/InsertionSort.java)
@@ -113,8 +146,49 @@ Welcome to my GitHub repository! This repository contains a collection of solved
 - :no_entry: [Shell Sort]()
 
 ---
+### Searching 
+- :no_entry: [Implement Binary Search]()
+- :no_entry: [First Missing Positive]()
+- :no_entry: [Search In Rotated Sorted Array]()
+- :no_entry: [Check If Array Is Sorted And Rotated]()
+- :no_entry: [Single Element In A Sorted Array]()
+- :no_entry: [Search Insert Position]()
+- :no_entry: [Search In A 2d Matrix]()
+- :no_entry: [Find Minimum In Rotated Sorted Array]()
 
+---
+### Hashing
+- :white_check_mark: [Two Sum]()
+- :white_check_mark: [Longest Consecutive Sub Sequence]()
+- :white_check_mark: [Number of Pairs]()
+- :white_check_mark: [Product of Array Except Self]()
+- :white_check_mark: [Subarray With Given Sum]()
+- :white_check_mark: [Frequency of Each Number In Array]()
+- :white_check_mark: [Group Anagrams]()
+- :white_check_mark: [Is Anagram or Not]()
+- :white_check_mark: [K Most Frequent Elements]()
+- :white_check_mark: [Sudoku Solver]()
+
+---
+### Sliding Window
+- :white_check_mark: [Longest Repeating Character Replacement]()
+- :white_check_mark: [Longest Substring without Repeatnig Characters]()
+- :white_check_mark: [Best Time To Buy Stock]()
+- :white_check_mark: [Sliding Window Median]()
+
+---
+### Two Pointers
+- :white_check_mark: [2 Sum]()
+- :white_check_mark: [3 Sum]()
+- :white_check_mark: [Container With Most Water]()
+
+---
+### Back Tracking
+- :white_check_mark: [Generate Parenthesis]()
+
+--- 
 ## Graphs 
+
 
 ---
 ## Contribution
@@ -127,8 +201,7 @@ If you would like to contribute to this repository by adding more problems or so
 4. Commit your changes and push the branch to your forked repository.
 5. Create a pull request, explaining the changes you made.
 
+**note** : Make sure u follow the coding pattern as followed by the owner of the Repository
 ---
 
 I hope you find this repository helpful! If you have any questions or suggestions, please feel free to reach out. Happy coding!
-
-
