@@ -40,7 +40,7 @@ Welcome to my GitHub repository! This repository contains a collection of solved
 ---
 
 ### Array
-- :white_check-mark: [Array Partition]()
+- :white_check_mark: [Array Partition]()
 - :white_check_mark: [Subarray with given sum](https://github.com/dhruvkaravadiya/data-structures-implemented/blob/main/Array/subArrayWithGivenSum.java)
 - :white_check_mark: [Reverse an Array](https://github.com/dhruvkaravadiya/data-structures-implemented/blob/main/Array/arrayReverse.java)
 - :white_check_mark: [Count Triplets](https://github.com/dhruvkaravadiya/data-structures-implemented/blob/main/Array/countTriplets.java)
@@ -68,8 +68,8 @@ Welcome to my GitHub repository! This repository contains a collection of solved
 
 ---
 ### Queue
-- :white_check_mark:: [Queue Using Array](https://github.com/dhruvkaravadiya/data-structures-implemented/blob/main/Queue/queueUsingArray.java)
-- :white_check_mark:: [Circular Queue Using Linked List](https://github.com/dhruvkaravadiya/data-structures-implemented/blob/main/Queue/circularQueueUsingLinkedList.java)
+- :white_check_mark: [Queue Using Array](https://github.com/dhruvkaravadiya/data-structures-implemented/blob/main/Queue/queueUsingArray.java)
+- :white_check_mark: [Circular Queue Using Linked List](https://github.com/dhruvkaravadiya/data-structures-implemented/blob/main/Queue/circularQueueUsingLinkedList.java)
 - :no_entry: [Queue Using Two Stacks]()
 - :no_entry: [Queue Using a Linked List]()
 - :no_entry: [Reverse The First k Elements Of A Queue]()
@@ -79,7 +79,7 @@ Welcome to my GitHub repository! This repository contains a collection of solved
 
 ---
 ### Linked List 
-- :white_check_mark: [Singly Linked List](https://github.com/dhruvkaravadiya/data-structures-implemented/blob/main/LinkedList/singlyLinkedList.java)H
+- :white_check_mark: [Singly Linked List](https://github.com/dhruvkaravadiya/data-structures-implemented/blob/main/LinkedList/singlyLinkedList.java)
 - :white_check_mark: [Doubly Linked List](https://github.com/dhruvkaravadiya/data-structures-implemented/blob/main/LinkedList/doublyLinkedList.java)
 - :white_check_mark: [Circular Linked List](https://github.com/dhruvkaravadiya/data-structures-implemented/blob/main/LinkedList/circularLinkedList.java)
 - :white_check_mark: [Merge Two Sorted LinkedList](https://github.com/dhruvkaravadiya/data-structures-implemented/blob/main/LinkedList/mergeTwoSortedLinkedList.java)
@@ -90,6 +90,7 @@ Welcome to my GitHub repository! This repository contains a collection of solved
 - :white_check_mark: [Implement Stack using Linked List](https://github.com/dhruvkaravadiya/data-structures-implemented/blob/main/LinkedList/implementStackUsingLinkedList.java)
 - :white_check_mark: [Implemenet Circular Queue using Linked List](https://github.com/dhruvkaravadiya/data-structures-implemented/blob/main/LinkedList/circuarQueueUsingLinkedList.java)
 - :white_check_mark: [Cycle / Loop Removal from a Linked List](https://github.com/dhruvkaravadiya/data-structures-implemented/blob/main/LinkedList/cycleRemoval.java)
+- :white_check_mark: [Remove Nth Node from End]()
 - :no_entry: [Intersection Point of Two Singly Linked Lists]()
 - :no_entry: [Cycle Detection]()
 - :no_entry: [Linked List Cycle]()
