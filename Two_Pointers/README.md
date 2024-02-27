@@ -26,9 +26,9 @@ This directory contains solutions to problems that can be solved using the 'Two 
    - If the next element is different from the current element, set the start pointer to the next element.
    - Set the end pointer to the last element.
    - Run a while loop until the start pointer is less than the end pointer.
-   - Calculate the sum of the elements at the start, end, and current positions.
-   - If the sum is equal to the target sum, add the indexes to the list.
-   - If the sum is less than the target sum, move the start pointer to the right.
-   - If the sum is greater than the target sum, move the end pointer to the left.
-   - Skip duplicate elements by moving the start pointer until it's different from the previous element.
+      - Calculate the sum of the elements at the start, end, and current positions.
+      - If the sum is equal to the target sum, add the indexes to the list.
+      - If the sum is less than the target sum, move the start pointer to the right.
+      - If the sum is greater than the target sum, move the end pointer to the left.
+      - Skip duplicate elements by moving the start pointer until it's different from the previous element.
 4. Return the list of indexes containing the triplets that sum up to the target sum.
