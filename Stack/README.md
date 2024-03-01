@@ -16,15 +16,15 @@ This directory contains solutions to problems that can be solved using the 'Stac
 ## Approach
 
 ### Implement Stack Using Array
-N = Array Size, stk = array of integers, TOP = -1
+`N` = Array Size, `stk` = array of integers, `TOP` = -1
 1. PUSH Algorithm
-   - Check for Stack Overflow (When top is at last element or more than length)
+   - Check for `Stack Overflow` (When top is at last element or more than length)
    - else increment the TOP and add element stk[top] = element
 2. POP Algorithm
-   - Check for Stack Underflow (When TOP < 0)
+   - Check for `Stack Underflow` (When TOP < 0)
    - else decrement TOP and return the new TOP element
 3. PEEK Algorithm
-   - Check for Stack Underflow ( TOP < 0 )
+   - Check for `Stack Underflow` ( TOP < 0 )
    - else retrun top
 
 ### Infix to Postfix
@@ -51,14 +51,20 @@ Given : String of parenthesis. Example : `({[()]})` or `(){}[]` (Both are valid)
 Approach:
 1. Initialize a String solution = `(`, a list to store all valid combinations, int n
 2. Make a function named `makeAndCheckParenthesis` with 3 params: (list, sol, n) 
-   - We want to create a function which checks if the solution strnig length is equal 2 * n , basically if solutions string length is even, 
-      - then iterate over each character of string of length 2 * n 
+   - We want to create a function which checks if the solution string length is equal `2 * n` , basically if solutions string length is `even`, 
+      - then iterate over each character of string of length `2 * n` 
          if `(` is found then push to stack
          - else pop from stack()
       - check if stack is empty, and add the current solution string to the list
    - finally then recursively call the function twice by adding `(` and `)` alternatively to solution string , along with the list
 
 ### Min Stack
+> [!Note]
+> Maintain a MIN pointer along with TOP which points at minimum and top of stack respectively
+> Use Linked list to implement the Min Stack
+1. initialize a class with `MIN` and `TOP` with default contructor for both values `null`
+2. PUSH Algorithm
+   - If TOP null then initialize MIN and TOP as null
+   - else add to stack by 
 
 ### Daily Temperatures
-
