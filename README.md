@@ -80,6 +80,8 @@ Welcome to my GitHub repository! This repository contains a collection of solved
 ---
 ### Linked List 
 - :white_check_mark: [Singly Linked List](https://github.com/dhruvkaravadiya/data-structures-implemented/blob/main/LinkedList/singlyLinkedList.java)
+- :white_check_mark: [Add Two Numbers]()
+- :white_check_mark: [Reorder Linked List]()
 - :white_check_mark: [Doubly Linked List](https://github.com/dhruvkaravadiya/data-structures-implemented/blob/main/LinkedList/doublyLinkedList.java)
 - :white_check_mark: [Circular Linked List](https://github.com/dhruvkaravadiya/data-structures-implemented/blob/main/LinkedList/circularLinkedList.java)
 - :white_check_mark: [Merge Two Sorted LinkedList](https://github.com/dhruvkaravadiya/data-structures-implemented/blob/main/LinkedList/mergeTwoSortedLinkedList.java)
