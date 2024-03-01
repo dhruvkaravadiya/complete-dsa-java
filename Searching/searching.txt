@@ -1,8 +1,0 @@
-https://leetcode.com/problems/first-missing-positive/
-https://leetcode.com/problems/binary-search/
-https://leetcode.com/problems/search-in-rotated-sorted-array/
-https://leetcode.com/problems/check-if-array-is-sorted-and-rotated/
-https://leetcode.com/problems/single-element-in-a-sorted-array/
-https://leetcode.com/problems/search-insert-position/
-https://leetcode.com/problems/search-a-2d-matrix/
-https://leetcode.com/problems/find-minimum-in-rotated-sorted-array/
