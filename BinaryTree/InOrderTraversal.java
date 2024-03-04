@@ -1,16 +1,17 @@
-package Traversals;
 
 import utils.TreeNode;
+
 public class InOrderTraversal {
-    public static void inorderTraversal(TreeNode node){
+    public static void inorderTraversal(TreeNode node) {
         if (node == null)
             return;
-        if(node!=null){
+        if (node != null) {
             inorderTraversal(node.left);
-            System.out.print(node.data+" ");
+            System.out.print(node.data + " ");
             inorderTraversal(node.right);
         }
     }
+
     public static void main(String[] args) {
         TreeNode btree = new TreeNode(1);
         btree.left = new TreeNode(2);

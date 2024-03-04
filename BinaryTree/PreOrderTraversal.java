@@ -1,15 +1,16 @@
-package Traversals;
 
 import utils.TreeNode;
+
 public class PreOrderTraversal {
-    public static void preOrderTraversal(TreeNode node){
-        if(node == null){
+    public static void preOrderTraversal(TreeNode node) {
+        if (node == null) {
             return;
         }
-        System.out.print(node.data+" ");
+        System.out.print(node.data + " ");
         preOrderTraversal(node.left);
         preOrderTraversal(node.right);
     }
+
     public static void main(String[] args) {
         TreeNode btree = new TreeNode(1);
         btree.left = new TreeNode(2);

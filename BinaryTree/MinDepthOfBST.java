@@ -1,6 +1,5 @@
 //The minimum depth is the number of nodes along the shortest path
 // from the node node down to the nearest leaf node.
-package Depths;
 
 import utils.TreeNode;
 

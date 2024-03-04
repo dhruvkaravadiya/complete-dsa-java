@@ -1,26 +1,25 @@
 // Max Depth / Height of BST : 
 // Number of nodes along the longest path
 // from the root node down to the farthest leaf node.
-package Depths;
+
 import utils.TreeNode;
 
 public class MaxDepthOfBST {
-    public static int BSTMaxHeight(TreeNode node){
-        if(node == null){
+    public static int BSTMaxHeight(TreeNode node) {
+        if (node == null) {
             return 0;
-        }
-        else{
+        } else {
             int leftTreeHeight = BSTMaxHeight(node.left);
-            int rightTreeHeight =  BSTMaxHeight(node.right);
+            int rightTreeHeight = BSTMaxHeight(node.right);
 
-            if(leftTreeHeight < rightTreeHeight){
+            if (leftTreeHeight < rightTreeHeight) {
                 return rightTreeHeight + 1;
-            }
-            else{
+            } else {
                 return leftTreeHeight + 1;
             }
         }
     }
+
     public static void main(String[] args) {
         TreeNode btree = new TreeNode(1);
         btree.left = new TreeNode(4);

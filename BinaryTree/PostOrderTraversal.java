@@ -1,17 +1,18 @@
-package Traversals;
 
 import utils.TreeNode;
+
 public class PostOrderTraversal {
-    public static void postOrderTraversal(TreeNode node){
-        if(node == null){
+    public static void postOrderTraversal(TreeNode node) {
+        if (node == null) {
             return;
         }
-        if(node!=null){
+        if (node != null) {
             postOrderTraversal(node.left);
             postOrderTraversal(node.right);
-            System.out.print(node.data+" ");
+            System.out.print(node.data + " ");
         }
     }
+
     public static void main(String[] args) {
         TreeNode btree = new TreeNode(1);
         btree.left = new TreeNode(2);
