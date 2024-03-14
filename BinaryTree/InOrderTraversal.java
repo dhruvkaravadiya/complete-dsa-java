@@ -5,7 +5,7 @@ public class InOrderTraversal {
     public static void inorderTraversal(TreeNode node) {
         if (node == null)
             return;
-        if (node != null) {
+        else {
             inorderTraversal(node.left);
             System.out.print(node.data + " ");
             inorderTraversal(node.right);
