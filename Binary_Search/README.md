@@ -111,8 +111,8 @@ EX: ARR = {1,2,2}, mid = 1, left, 0, right =2 , then at mid element 2 is found ,
 ---
 
 ### Capacity To Ship Packages Within Days
-
-
+> [!NOTE]
+> We are given the number of i
 ---
 
 ### Arranging Coins
@@ -128,11 +128,20 @@ EX: ARR = {1,2,2}, mid = 1, left, 0, right =2 , then at mid element 2 is found ,
 ---
 
 ### Find Minimum in A Rotated Sorted Array
-
+1. If current array is sorted, i.e. `arr[low] <= arr[high]`, simply return the first element arr[low]
+2. If low to mid is sorted, i.e. `arr[mid] <= arr[high]`,update the min and the low pointer to mid+1.
+3. else if mid to high is sorted, update the min and the high pointer to mid - 1.
 ---
 
 ### Search In A Rotated Sorted Array
-
+> [!TIP] 
+> Intuition is to check if one of the half arrays are sorted or not, if sorted, then search for the element in that half array.
+1. If found at mid return mid
+2. if `arr[low] < arr[mid]`,meaning left half array is sorted, look for the target in this `low-mid` range
+3. else `arr[mid] < arr[high]`,meaning right half array is sorted, look for the target in this `mid-high` range
 ---
 
 ### Successful Pairs of Potions and Spells
+1. For each of the spells multiplied by potions, its value should be greater equal target, then its a successfull pair. 
+2. Count the number of pairs of a spell i with potions j, for each of the spell i.
+3. And return those value as array, thus answer array would be of same size as the spells array.
