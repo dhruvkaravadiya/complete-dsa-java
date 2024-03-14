@@ -1,5 +1,3 @@
-package Binary_Search;
-
 // here we are implementing the lower bound and the upper bound
 
 public class FindFirstAndLastIndexOfElement {

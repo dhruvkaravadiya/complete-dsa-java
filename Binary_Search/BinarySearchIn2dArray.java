@@ -1,5 +1,3 @@
-package Binary_Search;
-
 // first solution using search in each row
 // O(n) + O(log(m)) time complexity
 // O(1) space complexity

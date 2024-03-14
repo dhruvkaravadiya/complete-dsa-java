@@ -1,5 +1,3 @@
-package Binary_Search;
-
 class Solution {
       public int arrangeCoins(int n) {
             int i = 1;

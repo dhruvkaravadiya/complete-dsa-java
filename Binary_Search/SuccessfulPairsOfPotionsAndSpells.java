@@ -1,5 +1,3 @@
-package Binary_Search;
-
 public class SuccessfulPairsOfPotionsAndSpells {
       public static void main(String[] args) {
             int[] spells = { 5, 1, 3 };
