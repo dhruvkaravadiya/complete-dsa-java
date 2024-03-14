@@ -6,18 +6,18 @@ import utils.TreeNode;
 
 public class MaxDepthOfBST {
     public static int BSTMaxHeight(TreeNode node) {
-        if (node == null) {
-            return 0;
-        } else {
-            int leftTreeHeight = BSTMaxHeight(node.left);
-            int rightTreeHeight = BSTMaxHeight(node.right);
-
-            if (leftTreeHeight < rightTreeHeight) {
-                return rightTreeHeight + 1;
-            } else {
-                return leftTreeHeight + 1;
-            }
-        }
+        // if (node == null) {
+        // return 0;
+        // } else {
+        // int leftTreeHeight = BSTMaxHeight(node.left);
+        // int rightTreeHeight = BSTMaxHeight(node.right);
+        // if (leftTreeHeight < rightTreeHeight) {
+        // return rightTreeHeight + 1;
+        // } else {
+        // return leftTreeHeight + 1;
+        // }
+        // }
+        return node == null ? 0 : 1 + Math.max(BSTMaxHeight(node.left), BSTMaxHeight(node.right));
     }
 
     public static void main(String[] args) {
