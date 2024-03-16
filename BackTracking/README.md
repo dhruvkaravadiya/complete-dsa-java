@@ -7,7 +7,7 @@ This directory contains solutions to problems that can be solved using the `Tree
 
 ## Approach
 
-### N-Queens Problem  \
+### N-Queens Problem
 - `O(N!) solution using Backtracking + Hashing + Recursion`
 
 > [!IMPORTANT]
