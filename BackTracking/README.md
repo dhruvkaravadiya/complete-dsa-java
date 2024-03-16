@@ -23,9 +23,9 @@ This directory contains solutions to problems that can be solved using the `Tree
 
    To implement the above approach, we might need additional data structures or variables to assist in counting nodes and maintaining the traversal state. Here's a brief explanation of some key components used in the provided code:
 
-      - **leftRowHash**: This array is used to mark whether a row in the chessboard (used in the N-Queens problem) has a queen placed on it. It helps in checking whether a particular row is available for placing a queen.
-      - **upperDiagonalHash**: This array helps in marking whether the upper diagonal of the current position on the chessboard has a queen placed on it. It ensures that no queen attacks another queen diagonally.
-      - **lowerDiagonalHash**: Similar to the upper diagonal hash, this array marks the availability of the lower diagonal for placing a queen, preventing diagonal attacks.
+      - `leftRowHash`: This array is used to mark whether a row in the chessboard (used in the N-Queens problem) has a queen placed on it. It helps in checking whether a particular row is available for placing a queen.
+      - `upperDiagonalHash`: This array helps in marking whether the upper diagonal of the current position on the chessboard has a queen placed on it. It ensures that no queen attacks another queen diagonally.
+      - `lowerDiagonalHash`: Similar to the upper diagonal hash, this array marks the availability of the lower diagonal for placing a queen, preventing diagonal attacks.
 
    These arrays are used to efficiently check whether a particular position on the chessboard is safe for placing a queen, thus aiding in the backtracking algorithm used to solve the N-Queens problem.
 
