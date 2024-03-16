@@ -1,5 +1,3 @@
-package BackTracking;
-
 import java.util.ArrayList;
 import java.util.List;
 
@@ -12,23 +10,26 @@ class Solution {
 
       private void generateParenthesisHelper(List<String> result, String current, int open, int close, int n) {
             // if (current.length() == 2 * n) {
-            //       result.add(current);
-            //       return;
+            // result.add(current);
+            // return;
             // }
 
             // or we can remove this backtracking logic above by simply doing
-            // basically add the current string only if its open and closing brackets matches, 
+            // basically add the current string only if its open and closing brackets
+            // matches,
             // as valid parenthesis will always have equal length parenthesis
-            if(open == n && close == n){
+
+            // backtracking step to add the current string to the result list
+            if (open == n && close == n) {
                   result.add(current);
                   return;
             }
 
-
+            // left state space tree expansion exploring possibilities
             if (open < n) {
                   generateParenthesisHelper(result, current + "(", open + 1, close, n);
             }
-
+            // right state space tree expansion exploring possibilities
             if (close < open) {
                   generateParenthesisHelper(result, current + ")", open, close + 1, n);
             }
