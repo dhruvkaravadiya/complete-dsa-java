@@ -1,3 +1,8 @@
+// Optimized Approach to solve NQueens problem
+// Time Complexity: O(n!)
+// Space Complexity: O(n)
+// Hashing + Backtracking + Recursion
+
 import java.util.ArrayList;
 import java.util.List;
 

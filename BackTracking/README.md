@@ -12,6 +12,8 @@ This directory contains solutions to problems that can be solved using the `Tree
 > [!IMPORTANT]
 >To find the kth smallest node in a binary tree, we can utilize the property of in-order traversal. In an in-order traversal, visiting nodes in non-decreasing order (left-root-right) ensures that the smallest node is visited first, followed by the second smallest, and so on. Therefore, the kth node visited during an in-order traversal of the tree will be the kth smallest node.
 
+> [!IMPORTANT]
+> O(N!) solution using Backtracking + Hashing + Recursion
    Here's a step-by-step explanation of the approach:
 
    1. **In-Order Traversal**: We perform an in-order traversal of the binary tree.
