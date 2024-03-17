@@ -6,7 +6,7 @@
 import java.util.ArrayList;
 import java.util.List;
 
-public class NQueens {
+public class NQueens1 {
       public static void main(String[] args) {
             int n = 4;
             List<List<String>> result = new ArrayList<>();
