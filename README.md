@@ -159,7 +159,6 @@ Welcome to my GitHub repository! This repository contains a collection of solved
 - :white_check_mark: [Guess Number Higher Or Lower]()
 - :white-check_mark: [Koko Eating Banana]()
 - :white_check_mark: [Minimum In Rotated Sorted Array]()
-
 - :no_entry: [Implement Binary Search]()
 - :no_entry: [Check If Array Is Sorted And Rotated]()
 - :no_entry: [Single Element In A Sorted Array]()
