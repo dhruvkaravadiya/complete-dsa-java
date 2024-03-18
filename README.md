@@ -33,7 +33,7 @@ Welcome to my GitHub repository! This repository contains a collection of solved
 - [Sliding Window](#sliding-window)
 - [Hashing](#hashing)
 - [Back Tracking](#back-tracking)
-
+ 
 
 ---
 ## Data Structures Problems
@@ -149,14 +149,21 @@ Welcome to my GitHub repository! This repository contains a collection of solved
 - :no_entry: [Shell Sort]()
 
 ---
-### Searching 
+### Binary Search 
+- :white_check_mark: [Arranging Coins]()
+- :white_check_mark: [Binary Search In A 2d Matrix]()
+- :white_check_mark: [Capacity to Shup Ships]()
+- :white_check_mark: [First And Last Index Of Element in Array]()
+- :white_check_mark: [First Missing Positive]()
+- :white_check_mark: [Search In Rotated Sorted Array]()
+- :white_check_mark: [Guess Number Higher Or Lower]()
+- :white-check_mark: [Koko Eating Banana]()
+- :white_check_mark: [Minimum In Rotated Sorted Array]()
+
 - :no_entry: [Implement Binary Search]()
-- :no_entry: [First Missing Positive]()
-- :no_entry: [Search In Rotated Sorted Array]()
 - :no_entry: [Check If Array Is Sorted And Rotated]()
 - :no_entry: [Single Element In A Sorted Array]()
 - :no_entry: [Search Insert Position]()
-- :no_entry: [Search In A 2d Matrix]()
 - :no_entry: [Find Minimum In Rotated Sorted Array]()
 
 ---
@@ -188,6 +195,11 @@ Welcome to my GitHub repository! This repository contains a collection of solved
 ---
 ### Back Tracking
 - :white_check_mark: [Generate Parenthesis]()
+- :white_check_mark:[N-Queens Problem]()
+- :white_check_mark:[Generate Parenthesis]() 
+- :white_check_mark:[Subsets]()
+- :white_check_mark:[Permutations]()
+- :white_check_mark:[Combination Sum]()
 
 --- 
 ## Graphs 
