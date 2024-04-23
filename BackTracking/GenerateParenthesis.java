@@ -36,7 +36,6 @@ public class GenerateParenthesis {
       }
 
       public static void main(String[] args) {
-            Solution solution = new Solution();
 
             for (int n = 1; n <= 6; n++) {
                   List<String> result = generateParenthesis(n);
