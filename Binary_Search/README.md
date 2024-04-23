@@ -68,7 +68,7 @@ Ex : mid = 5: at index (1,1), i.e. 4th index in 1d
 > Example : [1,2,3,3,4,5,6,7] , element = k , then lower bound = index = 2
 1. Initialize the left and the right element at `0`, and `n-1` respectively, and index = `-1`(not found case);
 2. Now if target is found then update the `index = mid` and take the right pointer to the `right = mid-1`, thus taking the right to mid - 1 will break the next loop ,
-EX: ARR = {1,2,2}, mid = 1, left, 0, right =2 , then at mid element 2 is found , so we take right pointer to mid - 1 , i.e. at 0 , index, now next loop will breaK
+EX: ARR = {1,2,2}, mid = 1, left, 0, right = 2 , then at mid element 2 is found , so we take right pointer to mid - 1 , i.e. at 0 , index, now next loop will breaK
 3. else if `target < mid element` , then we delete the right half array and basically take the right element to mid - 1
 4. else last case `target > mid element`, delete the first half and take the left  to mid + 1 
 
