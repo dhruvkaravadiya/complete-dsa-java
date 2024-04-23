@@ -11,6 +11,7 @@ public class Permutations {
       }
 
       public static void generatePermutations(int[] arr, List<Integer> list) {
+            // base case
             if (list.size() > arr.length) {
                   return;
             }
@@ -22,6 +23,7 @@ public class Permutations {
                   if (!list.contains(arr[i])) {
                         list.add(arr[i]);
                         generatePermutations(arr, list);
+                        // backtracking step
                         list.remove(list.size() - 1);
                   }
             }
