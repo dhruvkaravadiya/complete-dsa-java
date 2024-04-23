@@ -34,6 +34,7 @@ public class CombinationSum {
       public static void main(String[] args) {
             int[] arr = { 10, 1, 2, 7, 6, 1, 5 };
             int target = 8;
+
             quickSort(arr, 0, arr.length - 1);
             List<List<Integer>> result = new ArrayList<>();
             List<Integer> current = new ArrayList<>();
