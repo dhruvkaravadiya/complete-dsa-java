@@ -4,7 +4,7 @@ import java.util.*;
 
 public class ThreeSum {
       public static void main(String[] args) {
-            int[] arr = { -1, 0, 2, 3, 2, 1, 5, -1, -2 };
+            int[] arr = { -1, 0, 1, 2, -1, -4 };
             System.out.println(threeSum(arr));
       }
 
@@ -32,14 +32,14 @@ public class ThreeSum {
                               list.add(templist);
                               left++;
                               right--;
-                              while (left < right && nums[left] == nums[left - 1]) {
-                                    left++;
-                              }
+                              // while (left < right && nums[left] == nums[left - 1]) {
+                              // left++;
+                              // }
 
-                              // Skip duplicate values for right
-                              while (left < right && nums[right] == nums[right + 1]) {
-                                    right--;
-                              }
+                              // // Skip duplicate values for right
+                              // while (left < right && nums[right] == nums[right + 1]) {
+                              // right--;
+                              // }
                         }
 
                   }
