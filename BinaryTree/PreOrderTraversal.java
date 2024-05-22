@@ -6,7 +6,7 @@ public class PreOrderTraversal {
         if (node == null) {
             return;
         }
-        System.out.print(node.data + " ");
+        System.out.print(node.val + " ");
         preOrderTraversal(node.left);
         preOrderTraversal(node.right);
     }

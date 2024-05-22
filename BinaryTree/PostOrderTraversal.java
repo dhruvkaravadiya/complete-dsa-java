@@ -9,7 +9,7 @@ public class PostOrderTraversal {
         if (node != null) {
             postOrderTraversal(node.left);
             postOrderTraversal(node.right);
-            System.out.print(node.data + " ");
+            System.out.print(node.val + " ");
         }
     }
 

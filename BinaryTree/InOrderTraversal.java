@@ -7,7 +7,7 @@ public class InOrderTraversal {
             return;
         else {
             inorderTraversal(node.left);
-            System.out.print(node.data + " ");
+            System.out.print(node.val + " ");
             inorderTraversal(node.right);
         }
     }
