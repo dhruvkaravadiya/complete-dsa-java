@@ -7,7 +7,7 @@
  * The algorithm then selects the smallest element from the unsorted part and
  * swaps it with the leftmost element of the unsorted part.
  * This process continues until the entire array is sorted.
- */
+ **/
 
 public class SelectionSort {
     public static void main(String[] args) {
@@ -26,10 +26,8 @@ public class SelectionSort {
             arr[i] = arr[minIndex];
             arr[minIndex] = temp;
         }
-
         for (int i = 0; i < n; i++) {
             System.out.print(arr[i] + " ");
         }
-
     }
 }
