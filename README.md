@@ -105,7 +105,6 @@ Welcome to my GitHub repository! This repository contains a collection of solved
 
 ---
 ### Binary Tree
-- :no_entry: [Number Of Leaf Nodes]()
 - :white_check_mark:[In Order Traversal]()
 - :white_check_mark:[Pre Order Traversal]()
 - :white_check_mark:[Post Order Traversal]()
@@ -113,6 +112,16 @@ Welcome to my GitHub repository! This repository contains a collection of solved
 - :white_check_mark:[DFS - Depth First Search]()
 - :white_check_mark:[Max Depth Of BST]()
 - :white_check_mark:[Min Depth Of BST]()
+- :white_check_mark:[Level Order Traversal]()
+- :white_check_mark:[Invert Bianry Tree]()
+- :white_check_mark:[Balanced Binary Tree]()
+- :white_check_mark:[Count Good Nodes]()
+- :white_check_mark:[Has Path Sum]()
+- :white_check_mark:[Kth Smallest Node]()
+- :white_check_mark:[Sub Tree Equal Root]()
+- :white_check_mark:[Sum Root To Leaf Node]()
+- :white_check_mark:[Validate Binary Tree]()
+- :white_check_mark:[Number of Leaf Nodes]()
 
 ---
 ### Hash Table
@@ -197,12 +206,15 @@ Welcome to my GitHub repository! This repository contains a collection of solved
 ---
 ### Back Tracking
 - :white_check_mark: [Generate Parenthesis]()
-- :white_check_mark:[N-Queens Problem]()
-- :white_check_mark:[Generate Parenthesis]() 
-- :white_check_mark:[Subsets]()
-- :white_check_mark:[Permutations]()
-- :white_check_mark:[Combination Sum]()
-
+- :white_check_mark: [N-Queens Problem]()
+- :white_check_mark: [Generate Parenthesis]() 
+- :white_check_mark: [Subsets With Unique Elements]()
+- :white_check_mark: [Subsets With Duplicate Elements]()
+- :white_check_mark: [Permutations]()
+- :white_check_mark: [Combination Sum]()
+- :no_entry: [Combination Sum 2]()
+- :white_check_mark: [Word Search]()
+- :white_check_mark: [Number Of Beautiful Subsets]()
 --- 
 ## Graphs 
 
