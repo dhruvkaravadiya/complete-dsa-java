@@ -1,7 +1,7 @@
 import java.util.ArrayList;
 import java.util.List;
 
-public class Subsets2 {
+public class RepeatingElementsSubsets {
       public static List<List<Integer>> subsetsWithDup(int[] nums) {
             int n = nums.length;
             List<List<Integer>> result = new ArrayList<>();

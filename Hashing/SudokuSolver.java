@@ -64,6 +64,6 @@ public class SudokuSolver {
                         { '.', '.', '.', '4', '1', '9', '.', '.', '5' },
                         { '.', '.', '.', '.', '8', '.', '.', '7', '9' } };
             System.out.println(isValidSudoku(board));
-                  }
+      }
 
 }
