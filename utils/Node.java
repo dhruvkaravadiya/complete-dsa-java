@@ -10,4 +10,11 @@ public class Node {
             this.next = null;
             this.data = data;
       }
+
+      public void display(Node node) {
+            while (node != null) {
+                  System.out.print(node.data + " ");
+                  node = node.next;
+            }
+      }
 }
