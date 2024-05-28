@@ -1,5 +1,5 @@
-class Solution {
-      public int arrangeCoins(int n) {
+class ArrangingCoins {
+      public static int arrangeCoins(int n) {
             int i = 1;
             int count = 0;
             while (i <= n) {
@@ -10,4 +10,7 @@ class Solution {
             return count;
       }
 
+      public static void main(String[] args) {
+            System.out.println(arrangeCoins(8));
+      }
 }
