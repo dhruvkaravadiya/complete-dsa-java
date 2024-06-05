@@ -19,19 +19,19 @@
 // }
 
 //Optimized Approach
-public class countTriplets{
+public class countTriplets {
     public static void main(String[] args) {
-        int arr[]={2, 5, 1, 3, 0};
+        int arr[] = { 2, 5, 1, 3, 0 };
+        // triplets = 1,2,3=> 2,3,5 =>2 more
         int n = arr.length;
-        int ans=0;
-        for(int i = 0 ; i < n ; i++){
-            int count=0;
-            for(int j = i+1 ; j < n ; j++){
-                if(arr[j] > arr[i]){
+        int ans = 0;
+        for (int i = 0; i < n; i++) {
+            int count = 0;
+            for (int j = i + 1; j < n; j++) {
+                if (arr[j] > arr[i]) {
                     count++;
-                }
-                else{
-                    ans+=count;
+                } else {
+                    ans += count;
                 }
             }
         }
