@@ -1,5 +1,6 @@
 package Two_Pointers;
 
+// explanation : https://takeuforward.org/data-structure/container-with-most-water/
 public class ContainerWithMostWater {
       public static int maxArea(int[] height) {
             int left = 0;
