@@ -1,4 +1,5 @@
 import java.util.Stack;
+
 public class ValidParenthesis {
       public static boolean isValid(String s) {
             if (s.length() == 1) {

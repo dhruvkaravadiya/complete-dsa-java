@@ -38,7 +38,7 @@ Given : String of parenthesis. Example : `({[()]})` or `(){}[]` (Both are valid)
 1. Iterate over each character of the string
    - push the character if its opening bracket
    - if character is closing bracket, then look for the corresponding opening bracket on the top of the stack and pop that, if found, else return false 
-2. At last if stack is empty return true
+2. At last if stack is empty return true 
 
 ### Generate Parenthesis
 > [!NOTE]  
@@ -68,3 +68,4 @@ Approach:
    - else add to stack by 
 
 ### Daily Temperatures
+>
