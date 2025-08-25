@@ -5,6 +5,7 @@
 
 public class BubbleSort {
     public static void main(String[] args) {
+        // here we are taking the worst case for test run
         int arr[] = { 10, 9, 8, 7, 6, 5, 4, 3, 2, 1 };
         int n = arr.length;
         System.out.print("Before : ");
