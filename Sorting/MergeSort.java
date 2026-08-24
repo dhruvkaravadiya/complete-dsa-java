@@ -12,7 +12,7 @@ public class MergeSort {
         //first get size of the two arrays
         int s1 = mid-left+1;
         int s2 = right-mid;
-        //create temperory arrays
+        //create temporary arrays
         int L[] = new int[s1];
         int R[] = new int[s2];
         //copy elements from the arr array to the two arrays

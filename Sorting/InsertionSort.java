@@ -1,3 +1,9 @@
+// Time Complexity: 
+// O(N^2) in worst and average case, 
+// O(N) in best case (when the array is already sorted).
+// Space Complexity: O(1) as it is an in-place sorting algorithm.
+
+
 //ALGORITHM : 
 // Compare key with each element on the left of it until an element smaller than
 // it is found.
